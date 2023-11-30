@@ -53,7 +53,7 @@ Your contributions can help improve the effectiveness of Mojo Teacher GPT. To co
 3. Report any inaccuracies in responses.
 
 ## License
-Usage of the Mojo Teacher GPT is subject to the terms and conditions outlined in its license agreement.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 The development of Mojo Teacher GPT is inspired by the innovative work of Chris Lattner and the Modular team in creating the Mojo programming language.
