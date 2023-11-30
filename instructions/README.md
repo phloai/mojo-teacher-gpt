@@ -1,3 +1,6 @@
+> [!WARNING]
+> Before copying you should look at the raw data to copy the markdown, otherwise formatting will be incorrect.
+
 # Name
 Mojo Teacher
 
