@@ -6,7 +6,9 @@ The Mojo Teacher GPT is a specialized tool designed to facilitate learning and c
 Learning a new programming language can be challenging, especially one as unique as Mojo. Mojo Teacher GPT bridges the gap, offering tailored guidance and code examples. This approach simplifies complex concepts, making learning Mojo more accessible and efficient.
 
 ### Creation of Mojo Teacher GPT
-The Mojo Teacher GPT was created by processing content from [Mojo Examples](github.com/mojo/examples) and [Mojo Documentation](docs.modular.com/mojo) using the [GPT GitHub Crawler](github.com/phloai/gpt-github-crawler) and [GPT Crawler](github.com/BuilderIO/gpt-crawler). These tools converted the content into structured JSON files, which were then summarized using the [Knowledge Summarizer GPT](https://chat.openai.com/g/g-McHIHioC4-knowledge-summarizer) to create an efficient Table of Contents, significantly improving the GPT's navigation and response accuracy. For more info on the benefits of a Table of Contents and our Knowledge Summarizer GPT, you can visit our [Knowledge Summarizer GPT GitHub](github.com/phloai/knowledge-summarizer-gpt).
+The Mojo Teacher GPT was created by processing content from [Mojo Examples](github.com/mojo/examples) and [Mojo Documentation](docs.modular.com/mojo) using the [GPT GitHub Crawler](github.com/phloai/gpt-github-crawler) and [GPT Crawler](github.com/BuilderIO/gpt-crawler). These tools converted the content into structured JSON files, which were then summarized using the [Knowledge Summarizer GPT](https://chat.openai.com/g/g-McHIHioC4-knowledge-summarizer) to create an efficient Table of Contents, significantly improving the GPT's navigation and response accuracy. 
+
+For more info on the benefits of a Table of Contents and our Knowledge Summarizer GPT, you can visit our [Knowledge Summarizer GPT GitHub](github.com/phloai/knowledge-summarizer-gpt).
 
 ## Link to the GPT
 - ChatGPT access link: [Mojo Teacher GPT](https://chat.openai.com/g/g-DqKeUiJWF-mojo-teacher)
