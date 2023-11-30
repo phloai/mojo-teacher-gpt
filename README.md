@@ -8,7 +8,7 @@ Learning a new programming language can be challenging, especially one as unique
 ### Creation of Mojo Teacher GPT
 The Mojo Teacher GPT was created by processing content from [Mojo Examples](https://github.com/modularml/mojo/tree/main/examples) and [Mojo Documentation](https://docs.modular.com/mojo/) using the [GPT GitHub Crawler](https://github.com/phloai/gpt-github-crawler) and [GPT Crawler](https://github.com/BuilderIO/gpt-crawler). These tools converted the content into structured JSON files, which were then summarized using the [Knowledge Summarizer GPT](https://chat.openai.com/g/g-McHIHioC4-knowledge-summarizer) to create an efficient Table of Contents, significantly improving the GPT's navigation and response accuracy. The reco 
 
-For recommended GPT instructions to use a Table of Contents, more info on the benefits of a Table of Contents, our Knowledge Summarizer GPT, you can visit our [Knowledge Summarizer GPT GitHub](https://github.com/phloai/knowledge-summarizer-gpt).
+For recommended GPT instructions to use a Table of Contents, more info on the benefits of a Table of Contents, and our Knowledge Summarizer GPT, you can visit our [Knowledge Summarizer GPT GitHub](https://github.com/phloai/knowledge-summarizer-gpt).
 
 ## Link to the GPT
 - ChatGPT access link: [Mojo Teacher GPT](https://chat.openai.com/g/g-DqKeUiJWF-mojo-teacher)
