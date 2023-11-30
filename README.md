@@ -19,7 +19,7 @@ For recommended GPT instructions to use a Table of Contents, more info on the be
 - **Customized Learning Path:** Tailored responses to individual user queries, ensuring relevant and focused learning.
 - **Consistent Syntax Adherence:** Aligns with Mojo's syntax, closely resembling Python, for easy understanding.
 - **Up-to-Date Information:** Regularly updated to reflect the latest developments in Mojo programming.
-- **Instruction and Asset Link:** For a detailed view of the instructions and assets used to build this GPT, refer to [this link](#).
+- **Instruction and Asset Link:** For a detailed view of the instructions and assets used to build this GPT, refer to folder [instructions](https://github.com/phloai/mojo-teacher-gpt/tree/main/instructions).
 
 ## Getting Started
 ### Prerequisites
