@@ -1,0 +1,53 @@
+<Mojo> ::= <Statements>
+
+<Statements> ::= <Statement> | <Statement> <Statements>
+
+<Statement> ::= <FunctionDeclaration> | <StructDeclaration> | <VariableDeclaration> | <Expression>
+
+<FunctionDeclaration> ::= <FnFunction> | <DefFunction>
+
+<FnFunction> ::= 'fn' <Identifier> '(' <Parameters> ')' ['->' <Type>] ':' <Block>
+
+<DefFunction> ::= 'def' <Identifier> '(' <Arguments> ')' ':' <Block>
+
+<StructDeclaration> ::= 'struct' <Identifier> ':' <Block>
+
+<VariableDeclaration> ::= <VarLet> <Identifier> ['=' <Expression>]
+
+<VarLet> ::= 'var' | 'let'
+
+<StructMembers> ::= <VariableDeclaration> | <VariableDeclaration> <StructMembers>
+
+<Parameters> ::= <Parameter> | <Parameter> ',' <Parameters> | ε
+
+<Parameter> ::= <Identifier> [':' <Type>] ['[' <CompileTimeParam> ']']
+
+<CompileTimeParam> ::= <Identifier> | <Integer> | <CompileTimeParam> ',' <CompileTimeParam>
+
+<Type> ::= <Identifier>
+
+<Block> ::= NEWLINE INDENT <Statements> DEDENT
+
+<Expression> ::= <Assignment> | <ArithmeticExpression> | <FunctionCall> | <Identifier> | <Literal>
+
+<Assignment> ::= <Identifier> '=' <Expression>
+
+<ArithmeticExpression> ::= <Expression> <ArithmeticOperator> <Expression>
+
+<ArithmeticOperator> ::= '+' | '-' | '*' | '/' | '%'
+
+<FunctionCall> ::= <Identifier> '(' <FunctionArguments> ')'
+
+<FunctionArguments> ::= <Expression> | <Expression> ',' <FunctionArguments> | ε
+
+<Arguments> ::= <Identifier> | <Identifier> ',' <Arguments> | ε
+
+<Literal> ::= <Integer> | <String> | <Boolean>
+
+<Integer> ::= [0-9]+
+
+<String> ::= '"' [^"]* '"'
+
+<Boolean> ::= 'true' | 'false'
+
+<Identifier> ::= [a-zA-Z_][a-zA-Z0-9_]*
