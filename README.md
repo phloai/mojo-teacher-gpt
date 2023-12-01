@@ -8,7 +8,7 @@ Learning a new programming language can be challenging, especially one as unique
 ### Creation of Mojo Teacher GPT
 The Mojo Teacher GPT was created by processing content from [Mojo Examples](https://github.com/modularml/mojo/tree/main/examples) and [Mojo Learning](https://github.com/rd4com/mojo-learning) using the [GPT GitHub Crawler](https://github.com/phloai/gpt-github-crawler) based on the [GPT Crawler](https://github.com/BuilderIO/gpt-crawler). These tools converted the content into structured JSON files, which were then summarized using the [Knowledge Summarizer GPT](https://chat.openai.com/g/g-McHIHioC4-knowledge-summarizer) to create an efficient Table of Contents, significantly improving the GPT's navigation and response accuracy.
 
-I then created a Mojo Backus–Naur form (BNF) syntax knowledge file, by adapting Python's BNF to Mojo's. This is a work in progress and should be continuously updated, I would appreciate any contributions to improve this. I uploaded this as knowledge file, instructing the GPT to always reference this structure to write Mojo.
+I then created a Mojo Backus–Naur form (BNF) syntax knowledge file, by adapting Python's BNF to Mojo's. This is a work in progress and should be continuously updated, I would appreciate any contributions to improve this. After uploaded this, I instructed the GPT to always reference this structure to write Mojo.
 
 For recommended GPT instructions to use a Table of Contents, more info on the benefits of a Table of Contents, and our Knowledge Summarizer GPT, you can visit our [Knowledge Summarizer GPT GitHub](https://github.com/phloai/knowledge-summarizer-gpt).
 
