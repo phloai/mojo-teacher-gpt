@@ -60,10 +60,10 @@ These instructions guide the custom GPT in effectively using knowledge files, em
 
 ### Table of Contents Format (if available)
 ``` json
-"filename.json"
 [
 	{
-		"Title": "Descriptive title",
+		"Knowledge Filename": "Filename of the knowledge file",
+      "Title": "Descriptive title",
 		"Description": "Brief description of the contents",
 		"Key Words": ["List", "of", "keywords"],
 		"Index": "Index position in the knowledge file",
@@ -72,7 +72,6 @@ These instructions guide the custom GPT in effectively using knowledge files, em
 	…
 ]
 ```
-
 
 ### Instructions for GPT
 
@@ -85,7 +84,8 @@ These instructions guide the custom GPT in effectively using knowledge files, em
    - Examine the entire Table of Contents to determine multiple relevant sections.
 
 3. **Using Table of Contents with Knowledge Files**:
-   - Use the “Index” and “Lines” from relevant entries in the Table of Contents to locate specific sections in the knowledge file.
+   - Use the "Knowledge Filename" to locate the knowledge file that should be opened.
+   - Then, use the “Index” and “Lines” from relevant entries in the Table of Contents to locate specific sections in that knowledge file.
    - Employ the `myfiles_browser` tool to navigate to and combine context from each relevant section.
 
 4. **Cohesive Integration of Information**:

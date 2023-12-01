@@ -1,0 +1,418 @@
+[
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Examples Repository License",
+        "Description": "This section contains the licensing information for the Mojo examples repository. It outlines the terms and conditions under Apache License v2.0 with LLVM Exceptions, including definitions, copyright license grants, patent licenses, redistribution conditions, and liability limitations.",
+        "Key Words": ["License", "Apache License v2.0", "LLVM Exceptions", "Copyright", "Patent License", "Redistribution", "Derivative Works", "Limitation of Liability"],
+        "Index": 0,
+        "Lines": "3-6"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Code Examples README",
+        "Description": "Introduction to Mojo code examples, providing a collection of sample programs and notebooks written in the Mojo programming language. It includes instructions for getting started, running the programs, and setting up a Mojo SDK container.",
+        "Key Words": ["Mojo", "Code Examples", "Programming Language", "Getting Started", "Mojo SDK Container", "Dockerfile", "JupyterLab", "Visual Studio Code"],
+        "Index": 1,
+        "Lines": "7-9"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Matrix Slice Notebook",
+        "Description": "A Jupyter Notebook demonstrating the use of matrix slicing in the Mojo programming language. The content details are not specified in the excerpt.",
+        "Key Words": ["Mojo", "Matrix Slicing", "Notebook", "Programming Language", "Jupyter"],
+        "Index": 2,
+        "Lines": "11-12"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Plotter README",
+        "Description": "README file for the Mojo Plotter, including installation and usage instructions. It covers setting up the conda environment and configuring Mojo to use the Python environment.",
+        "Key Words": ["Mojo Plotter", "Installation", "Conda Environment", "Usage", "Python Environment"],
+        "Index": 3,
+        "Lines": "15-16"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Plotter Main Code",
+        "Description": "Main Mojo code for the Mojo Plotter, showing the integration with Python and use of the matplotlib library for plotting.",
+        "Key Words": ["Mojo Plotter", "Main Code", "Python Integration", "matplotlib", "Plotting"],
+        "Index": 4,
+        "Lines": "19-20"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "TensorUtils Initialization",
+        "Description": "Initialization file for the TensorUtils in Mojo, primarily containing import statements.",
+        "Key Words": ["TensorUtils", "Initialization", "Mojo", "Imports"],
+        "Index": 5,
+        "Lines": "23-24"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "TensorUtils Main Module",
+        "Description": "Main module of TensorUtils in Mojo, including functions related to tensor operations and printing.",
+        "Key Words": ["TensorUtils", "Main Module", "Tensor Operations", "Printing", "Mojo"],
+        "Index": 6,
+        "Lines": "27-28"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "What's New in Mojo SDK v0.5 Notebook",
+        "Description": "A Jupyter Notebook outlining new features and enhancements in Mojo SDK version 0.5. The content details are not specified in the excerpt.",
+        "Key Words": ["Mojo SDK", "v0.5", "Updates", "Enhancements", "Notebook", "Jupyter"],
+        "Index": 7,
+        "Lines": "31-32"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Check Module Python Script",
+        "Description": "Python script to check and install missing modules for Mojo examples. It includes functionality to handle module installation and error handling.",
+        "Key Words": ["Python Script", "Module Check", "Installation", "Error Handling", "Mojo Examples"],
+        "Index": 8,
+        "Lines": "35-36"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "DeviceInfo in Mojo",
+        "Description": "Mojo code sample demonstrating how to print system information using various APIs from the sys module.",
+        "Key Words": ["DeviceInfo", "System Information", "Mojo", "APIs", "sys Module"],
+        "Index": 9,
+        "Lines": "39-40"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Hello Mojo Sample",
+        "Description": "A simple Mojo program demonstrating basic range and print functions. It showcases fundamental capabilities of the Mojo language.",
+        "Key Words": ["Hello Mojo", "Sample Program", "Range Functions", "Print Functions", "Mojo Basics"],
+        "Index": 10,
+        "Lines": "43-44"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Hello Interop Mojo Sample",
+        "Description": "A Mojo program demonstrating basic range and print functions, and importing a Python program into Mojo for interoperability.",
+        "Key Words": ["Hello Interop", "Mojo", "Python Interoperability", "Range Functions", "Print Functions"],
+        "Index": 11,
+        "Lines": "47-48"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mandelbrot Set in Mojo",
+        "Description": "Mojo implementation of the Mandelbrot set, showcasing complex number operations, parallelization, and vectorization.",
+        "Key Words": ["Mandelbrot Set", "Mojo", "Complex Numbers", "Parallelization", "Vectorization"],
+        "Index": 12,
+        "Lines": "51-52"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Matrix Multiplication in Mojo",
+        "Description": "Mojo code sample for matrix multiplication, demonstrating various system optimizations for performance speedups.",
+        "Key Words": ["Matrix Multiplication", "Mojo", "System Optimizations", "Performance Speedup"],
+        "Index": 13,
+        "Lines": "55-56"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Memset Implementation in Mojo",
+        "Description": "Mojo sample implementing various memset algorithms and optimizations, including performance measurement and visualization.",
+        "Key Words": ["Memset", "Implementation", "Mojo", "Algorithms", "Optimizations", "Performance Measurement"],
+        "Index": 14,
+        "Lines": "59-60"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "N-Body Simulation in Mojo",
+        "Description": "This section includes a Mojo language implementation of the nbody benchmarking. The code, provided under Apache License v2.0, demonstrates the use of data structures like StaticTuple and SIMD for creating a simulation of planetary motion.",
+        "Key Words": ["N-Body Simulation", "Mojo Language", "Benchmarking", "StaticTuple", "SIMD", "Apache License"],
+        "Index": 15,
+        "Lines": "62-66"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Low-Level IR in Mojo with MLIR",
+        "Description": "A comprehensive exploration of Mojo's low-level intermediate representation (IR) capabilities using MLIR. This section discusses creating a boolean type in Mojo, leveraging MLIR features, and implementing value semantics.",
+        "Key Words": ["MLIR", "Intermediate Representation", "Mojo", "Boolean Type", "Value Semantics", "Zero-Cost Abstractions"],
+        "Index": 16,
+        "Lines": "68-70"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Language Basics",
+        "Description": "An introduction to the basics of the Mojo programming language, highlighting its similarities with Python and unique systems programming features. The section covers language syntax, functions, variable declarations, and Python integration.",
+        "Key Words": ["Mojo", "Programming Language", "Python", "Syntax", "Systems Programming", "Type Checking", "Memory Safety"],
+        "Index": 17,
+        "Lines": "72-74"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mandelbrot Set in Mojo with Python Plots",
+        "Description": "This section presents an implementation of the Mandelbrot set algorithm in Mojo, demonstrating how Mojo can be used alongside Python for tasks like GUIs and visualization. It includes Python interoperability and vectorization techniques.",
+        "Key Words": ["Mandelbrot Set", "Mojo", "Python Interoperability", "GUI", "Visualization", "Vectorization"],
+        "Index": 18,
+        "Lines": "76-78"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Matrix Multiplication in Mojo",
+        "Description": "A detailed exploration of implementing matrix multiplication in Mojo. This section progresses from a Python implementation to optimized Mojo versions using types, vectorization, tiling, and parallelization, with performance benchmarks.",
+        "Key Words": ["Matrix Multiplication", "Mojo", "Python Implementation", "Optimization", "Vectorization", "Tiling", "Parallelization", "Performance Benchmark"],
+        "Index": 19,
+        "Lines": "80-81"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Fast memset in Mojo",
+        "Description": "This section covers the implementation of a fast memset function in Mojo, utilizing Mojo's autotuning feature. It includes a detailed explanation of the approach, high-level overview, implementation steps, and various optimizations for different sizes.",
+        "Key Words": ["memset", "Mojo", "autotuning", "optimization", "memory access", "vector width", "size checks", "implementation"],
+        "Index": 20,
+        "Lines": "84-85"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Jupyter notebooks",
+        "Description": "This part explains how Mojo supports programming in Jupyter notebooks, similar to Python. It includes instructions for getting started with Mojo notebooks, using Visual Studio Code, and some notes and tips for coding in Mojo within Jupyter notebooks.",
+        "Key Words": ["Mojo", "Jupyter notebooks", "programming", "Visual Studio Code", "installation", "code behavior", "Python integration"],
+        "Index": 21,
+        "Lines": "88-89"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Ray tracing in Mojo",
+        "Description": "This tutorial demonstrates implementing ray tracing in Mojo, covering steps from basic definitions to adding background, specular lighting, and more. It explains the creation of `Vec3f` and `Image` structs, ray tracing algorithm, and provides code examples.",
+        "Key Words": ["ray tracing", "Mojo", "tutorial", "Vec3f struct", "Image struct", "lighting", "background", "3D graphics"],
+        "Index": 22,
+        "Lines": "92-93"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Programming Manual",
+        "Description": "An introduction to the Mojo programming language, discussing its ease of use, performance, and Python compatibility. It covers the use of the Mojo compiler, basic systems programming extensions, parameterization, and compile-time metaprogramming.",
+        "Key Words": ["Mojo", "programming manual", "compiler", "systems programming", "parameterization", "metaprogramming", "Python integration"],
+        "Index": 23,
+        "Lines": "96-97"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Python Matrix Multiplication",
+        "Description": "A Python script demonstrating naive matrix multiplication, including benchmarking against NumPy's matrix multiplication. The script showcases Python's implementation of matrix multiplication and compares its performance with NumPy's implementation.",
+        "Key Words": ["Python", "Matrix Multiplication", "Benchmark", "NumPy", "Performance Comparison", "Python Script", "Naive Implementation"],
+        "Index": 24,
+        "Lines": "100-101"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Reduce Sample",
+        "Description": "A Mojo sample that implements a simple reduction operation on a large array of values. It includes the use of Kahan summation algorithm for simple summation, comparison with standard library reduction, and benchmarking of the methods.",
+        "Key Words": ["Mojo", "Reduction Operation", "Array", "Kahan Summation Algorithm", "Benchmarking", "Standard Library", "Algorithm Patterns"],
+        "Index": 25,
+        "Lines": "104-105"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Simple Python Interoperability Test",
+        "Description": "This Python script is used to test the interoperability of Python with Mojo. It includes a function that prints a greeting and a NumPy array, showcasing the integration of standard Python functionality and NumPy library in a Mojo environment.",
+        "Key Words": ["Python Interoperability", "Mojo", "NumPy", "Python Script", "Functionality Test"],
+        "Index": 26,
+        "Lines": "108-109"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "MIT License Information",
+        "Description": "Details the MIT License under which the 'mojo-learning' project is released. It includes permissions and conditions related to the use, modification, and distribution of the software.",
+        "Key Words": ["MIT License", "Copyright", "Software Use", "Distribution", "Permissions"],
+        "Index": 0,
+        "Lines": "2-5"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Learning Mojo Language - README",
+        "Description": "Provides an overview of various tutorials and resources for learning the mojo programming language. This section contains links to different learning modules and documentation.",
+        "Key Words": ["Mojo Language", "Tutorials", "Learning Resources", "Documentation", "Programming"],
+        "Index": 1,
+        "Lines": "7-9"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Autotune: Optimization Made Easy",
+        "Description": "Tutorial on using autotune for optimization in mojo language. It includes examples and explanations on how to determine the optimal choice in different scenarios.",
+        "Key Words": ["Autotune", "Optimization", "Mojo Language", "Performance Tuning", "Code Example"],
+        "Index": 2,
+        "Lines": "11-13"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Callbacks Through Parameters",
+        "Description": "A tutorial demonstrating the use of callbacks through parameters in mojo programming. Includes code examples and output demonstrations.",
+        "Key Words": ["Callbacks", "Parameters", "Mojo Programming", "Tutorial", "Code Example"],
+        "Index": 3,
+        "Lines": "16-17"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Calling Mojo Functions from Python",
+        "Description": "Explains how to call mojo functions from Python, including building a wrapper and using various features like VariadicList and Parametrized function.",
+        "Key Words": ["Mojo Functions", "Python Integration", "Wrapper", "Code Example", "Feature Explanation"],
+        "Index": 4,
+        "Lines": "20-21"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Making Compile Time Functions",
+        "Description": "Tutorial on creating compile time functions in mojo, with a focus on executing functions at compile time and runtime.",
+        "Key Words": ["Compile Time Functions", "Runtime", "Mojo Language", "Tutorial", "Programming Concepts"],
+        "Index": 5,
+        "Lines": "24-25"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Env, Argv, and Param_env",
+        "Description": "Covers the usage of environment variables, command-line arguments, and compile-time parameters in mojo programming.",
+        "Key Words": ["Environment Variables", "Command-Line Arguments", "Compile-Time Parameters", "Mojo Programming", "Tutorial"],
+        "Index": 6,
+        "Lines": "28-29"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Getattr: Dynamic and Static Struct Members",
+        "Description": "A guide on using the __getattr__ method to access both dynamic and static struct members in mojo language.",
+        "Key Words": ["Getattr", "Dynamic Struct Members", "Static Struct Members", "Mojo Language", "Programming Guide"],
+        "Index": 7,
+        "Lines": "32-33"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Introduction to Types",
+        "Description": "An introduction to various types in mojo programming, covering variable declarations, common types, and function usage.",
+        "Key Words": ["Types", "Variable Declaration", "Mojo Programming", "Function Usage", "Programming Basics"],
+        "Index": 8,
+        "Lines": "36-37"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Making Lists of Structs with Magic Operators",
+        "Description": "Details the use of magic operators in mojo for creating lists of structs, with attention to lifetimes and ownership concepts.",
+        "Key Words": ["Magic Operators", "Lists of Structs", "Mojo Programming", "Lifetimes", "Ownership"],
+        "Index": 9,
+        "Lines": "40-41"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Making Test Builds Using a Custom Flag",
+        "Description": "Discusses the process of making test builds in mojo using a custom flag, including examples and notes on testing importance.",
+        "Key Words": ["Test Builds", "Custom Flag", "Mojo Programming", "Testing", "Programming Practice"],
+        "Index": 10,
+        "Lines": "44-45"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "ASAP: Destructor Behaviors",
+        "Description": "Explains the concept of ASAP (as soon as possible) in mojo, focusing on destructor behaviors and memory management.",
+        "Key Words": ["ASAP", "Destructor Behaviors", "Memory Management", "Mojo Programming", "Resource Management"],
+        "Index": 11,
+        "Lines": "48-49"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Moveinit, Copyinit, Takeinit",
+        "Description": "Covers the concepts of moveinit, copyinit, and takeinit in mojo programming, with examples and explanations of each.",
+        "Key Words": ["Moveinit", "Copyinit", "Takeinit", "Mojo Programming", "Code Concepts"],
+        "Index": 12,
+        "Lines": "52-53"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Multi-Core Parallelization with SIMD",
+        "Description": "Tutorial on how to use multi-core processing and SIMD for parallelization in mojo programming, including examples and analogies.",
+        "Key Words": ["Multi-Core", "Parallelization", "SIMD", "Mojo Programming", "Performance Optimization"],
+        "Index": 13,
+        "Lines": "56-57"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "SIMD Cosine with Numpy",
+        "Description": "Demonstrates the use of SIMD for cosine calculations in combination with Numpy, including the integration of Python and mojo.",
+        "Key Words": ["SIMD", "Cosine Calculations", "Numpy", "Python Integration", "Mojo Programming"],
+        "Index": 14,
+        "Lines": "60-61"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Parameters, Alias, Struct Parameter Deduction",
+        "Description": "Explores the use of parameters, alias, and struct parameter deduction in mojo, providing examples and explanations.",
+        "Key Words": ["Parameters", "Alias", "Struct Parameter Deduction", "Mojo Programming", "Code Example"],
+        "Index": 15,
+        "Lines": "64-65"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Parametric Struct Through CPU Registers",
+        "Description": "Discusses how to create parametric structs that utilize CPU registers for faster data access and manipulation in mojo.",
+        "Key Words": ["Parametric Struct", "CPU Registers", "Data Access", "Mojo Programming", "Performance Optimization"],
+        "Index": 16,
+        "Lines": "68-69"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Python Land and Mojo Land, PythonObject",
+        "Description": "Explains the concept of PythonObject in mojo programming, highlighting its ability to bridge Python and mojo lands for data and function interoperability.",
+        "Key Words": ["Python Land", "Mojo Land", "PythonObject", "Interoperability", "Programming Integration"],
+        "Index": 17,
+        "Lines": "72-73"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Reader in Few Lines with Endian-ness",
+        "Description": "Tutorial explaining how to read data in mojo with different endian-ness using various features like alias, bitcasted pointers, generic structs, and compile-time programming.",
+        "Key Words": ["Endian-ness", "File Reader", "Mojo Programming", "Alias", "Bitcasted Pointer", "Generic Struct", "Compile-time Programming"],
+        "Index": 18,
+        "Lines": "76-77"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Struct as a Namespace",
+        "Description": "Demonstrates using a struct as a namespace in mojo programming, including the use of the '@staticmethod' decorator and PythonObject for integrating Python functions.",
+        "Key Words": ["Struct", "Namespace", "Static Method", "Mojo Programming", "Python Integration", "PythonObject"],
+        "Index": 19,
+        "Lines": "80-81"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Try and Except: Error Handling in Mojo",
+        "Description": "Tutorial on handling errors in mojo using 'try' and 'except' blocks, with examples illustrating various scenarios and error-handling strategies.",
+        "Key Words": ["Error Handling", "Try Block", "Except Block", "Mojo Programming", "Exception Handling"],
+        "Index": 20,
+        "Lines": "84-85"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Using Python in Mojo",
+        "Description": "Covers the integration of Python in mojo programming, demonstrating various Python functionalities such as list comprehensions, method calls, and working with pip modules.",
+        "Key Words": ["Python Integration", "Mojo Programming", "List Comprehension", "Method Calls", "PIP Modules"],
+        "Index": 21,
+        "Lines": "88-89"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Vectorize SIMD Cosine",
+        "Description": "Tutorial on vectorizing SIMD cosine calculations in mojo, including practical implementation examples and integration with Python for plotting.",
+        "Key Words": ["SIMD", "Cosine Calculation", "Vectorization", "Mojo Programming", "Python Plotting"],
+        "Index": 22,
+        "Lines": "92-93"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Understanding Updates and Changelogs in Mojo",
+        "Description": "Provides insights into how to stay updated with new changes and improvements in mojo, using changelogs to understand new features, bug fixes, and removed features.",
+        "Key Words": ["Updates", "Changelogs", "Mojo Programming", "New Features", "Bug Fixes"],
+        "Index": 23,
+        "Lines": "96-97"
+    },
+    {
+        "Knowledge Filename": "mojolearning.json",
+        "Title": "Using 'With' Blocks for Struct Parametric Minimal Raise",
+        "Description": "Explains how to use 'with' blocks in mojo for struct parametrization and error handling, including handling errors raised within 'with' blocks.",
+        "Key Words": ["With Blocks", "Struct Parametrization", "Error Handling", "Mojo Programming", "Parametric Programming"],
+        "Index": 24,
+        "Lines": "100-101"
+    }
+]
