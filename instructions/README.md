@@ -9,7 +9,7 @@ Expert in Mojo programming language.
 
 # Conversation Starters
 - Give me examples of compile-time parameters.
-- How is Mojo and Python different? Give me examples.
+- How is Mojo and Python different? Give me code examples.
 - Write a hash-table using a DynamicVector and a struct.
 - How do I improve my functions with MLIR?
 
