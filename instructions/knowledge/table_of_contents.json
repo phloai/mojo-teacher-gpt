@@ -1,1091 +1,1058 @@
 [
     {
-        "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mojo Examples Repository License",
-        "Description": "This section contains the licensing information for the Mojo examples repository. It outlines the terms and conditions under Apache License v2.0 with LLVM Exceptions, including definitions, copyright license grants, patent licenses, redistribution conditions, and liability limitations.",
-        "Key Words": ["License", "Apache License v2.0", "LLVM Exceptions", "Copyright", "Patent License", "Redistribution", "Derivative Works", "Limitation of Liability"],
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Repository License",
+        "Description": "This section details the licensing information for the Mojo repository. It specifies that the repository is licensed under the Apache License v2.0 with LLVM Exceptions. Key aspects of the license, including terms for use, reproduction, and distribution, are outlined.",
+        "Key Words": ["Apache License v2.0", "LLVM Exceptions", "copyright", "License", "Source form", "Object form", "Work", "Derivative Works", "Contribution", "Contributor", "patent license", "redistribution"],
         "Index": 0,
-        "Lines": "3-6"
+        "Lines": "4-5"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Documentation Overview",
+        "Description": "This section provides an overview of the Mojo documentation, highlighting its availability at docs.modular.com/mojo and the repository's structure. It mentions the location of Jupyter notebooks, CLI pages, and the Mojo Standard Library reference, and invites contributions to the documentation.",
+        "Key Words": ["documentation", "Jupyter notebooks", "CLI pages", "Mojo Standard Library", "contributions", "source files"],
+        "Index": 1,
+        "Lines": "8-9"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Changelog",
+        "Description": "This section presents the Mojo changelog, documenting significant changes, updates, and fixes in the Mojo language and tools. It does not include all internal implementation changes but focuses on major updates and improvements.",
+        "Key Words": ["changelog", "Mojo updates", "language and tools", "version history", "improvements", "fixes"],
+        "Index": 2,
+        "Lines": "12-13"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Community Resources",
+        "Description": "This section highlights the community channels for Mojo, emphasizing the importance of active community engagement and feedback. It provides links for asking questions, reporting issues, and real-time chat on Discord.",
+        "Key Words": ["community", "feedback", "GitHub discussions", "report issues", "Discord", "chat"],
+        "Index": 3,
+        "Lines": "16-17"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo FAQ",
+        "Description": "This section provides frequently asked questions about Mojo, addressing its motivation, naming, unique features, target developer audience, Python integration, and much more. It aims to clarify the purpose and scope of Mojo.",
+        "Key Words": ["FAQ", "Mojo language", "Python integration", "high-performance programming", "MLIR", "AI development"],
+        "Index": 4,
+        "Lines": "20-21"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Overview",
+        "Description": "An overview of Mojo, describing it as a new programming language that combines Python syntax with systems programming and metaprogramming for research and production. It mentions the availability of the Mojo SDK for Linux and macOS.",
+        "Key Words": ["Mojo", "programming language", "Python syntax", "systems programming", "metaprogramming", "SDK"],
+        "Index": 5,
+        "Lines": "24-25"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Standard Library Modules",
+        "Description": "This section lists all modules in the Mojo standard library, serving as a comprehensive index for the library's components.",
+        "Key Words": ["standard library", "Mojo modules", "programming components", "library index"],
+        "Index": 6,
+        "Lines": "28-29"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Programming Basics",
+        "Description": "An introductory guide to writing Mojo code, covering essential syntax and foundational concepts like functions, value ownership, variables, and structs. It also discusses traits, parameterization, blocks, statements, and Python integration.",
+        "Key Words": ["Mojo syntax", "programming guide", "functions", "variables", "structs", "traits", "parameterization"],
+        "Index": 7,
+        "Lines": "32-33"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @always_inline Decorator",
+        "Description": "Details the usage of the `@always_inline` decorator in Mojo programming, explaining how it optimizes function calls for performance by inlining code and the implications for binary size and debugging.",
+        "Key Words": ["@always_inline decorator", "function inlining", "Mojo programming", "performance optimization"],
+        "Index": 8,
+        "Lines": "36-37"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Decorators Reference",
+        "Description": "Provides a comprehensive reference of Mojo's built-in decorators, explaining how they modify or extend the behavior of structs, functions, and other code elements at compile time.",
+        "Key Words": ["decorators", "Mojo language", "compile-time modification", "functions", "structs"],
+        "Index": 9,
+        "Lines": "40-41"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @noncapturing Decorator",
+        "Description": "Explains the `@noncapturing` decorator in Mojo, used to indicate that a nested function does not capture variables from its outer scope. This decorator simplifies declarations in higher-order functions by eliminating the need for a `capturing` declaration.",
+        "Key Words": ["@noncapturing decorator", "nested functions", "variable capture", "Mojo programming"],
+        "Index": 10,
+        "Lines": "44-45"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @nonmaterializable Decorator",
+        "Description": "Describes the `@nonmaterializable` decorator, which is used to mark a struct as only existing in the parameter domain for metaprogramming, and specifies its runtime type when materialized.",
+        "Key Words": ["@nonmaterializable decorator", "metaprogramming", "struct", "runtime type", "parameter domain"],
+        "Index": 11,
+        "Lines": "48-49"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @parameter Decorator",
+        "Description": "Details the `@parameter` decorator, applicable to `if` statements or nested functions, for executing code at compile time. This decorator helps in optimizing code by ensuring only relevant branches are compiled.",
+        "Key Words": ["@parameter decorator", "compile-time execution", "optimization", "if statements", "nested functions"],
+        "Index": 12,
+        "Lines": "52-53"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @register_passable Decorator",
+        "Description": "Explains the `@register_passable` decorator, which is used to indicate that a type should be passed in machine registers for efficiency. It provides guidelines on how the type should be defined and its constraints.",
+        "Key Words": ["@register_passable decorator", "machine registers", "efficiency", "type constraints", "struct declaration"],
+        "Index": 13,
+        "Lines": "56-57"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @unroll Decorator",
+        "Description": "Covers the `@unroll` decorator in Mojo, used for loop unrolling in `for` and `while` loops. This decorator optimizes loops by expanding them at compile time, either fully or by a specified unroll factor.",
+        "Key Words": ["@unroll decorator", "loop unrolling", "optimization", "for loops", "while loops"],
+        "Index": 14,
+        "Lines": "60-61"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo @value Decorator",
+        "Description": "Discusses the `@value` decorator, which generates boilerplate lifecycle methods for structs in Mojo, including constructors for member-wise initialization, copy, and move operations.",
+        "Key Words": ["@value decorator", "lifecycle methods", "structs", "constructors", "Mojo programming"],
+        "Index": 15,
+        "Lines": "64-65"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Functions Overview",
+        "Description": "Provides an overview of Mojo functions, highlighting the differences between `def` and `fn` functions, their usages, and features like optional and keyword arguments, as well as function overloading.",
+        "Key Words": ["Mojo functions", "def and fn functions", "optional arguments", "keyword arguments", "function overloading"],
+        "Index": 16,
+        "Lines": "68-69"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo 'Hello, World!' Tutorial",
+        "Description": "A tutorial for running a basic 'Hello, World!' program in Mojo, showcasing different methods including using the REPL, running a Mojo file, and building an executable binary.",
+        "Key Words": ["Hello, World!", "tutorial", "Mojo CLI", "REPL", "executable binary"],
+        "Index": 17,
+        "Lines": "72-73"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Getting Started with Mojo",
+        "Description": "This section offers a starting guide for Mojo, including details on downloading the Mojo SDK, system requirements, and setting up the development environment. It also covers the Mojo Playground, a web-based Jupyter notebook environment for experimenting with Mojo.",
+        "Key Words": ["Mojo SDK", "system requirements", "development environment", "Mojo Playground", "Jupyter notebook", "Ubuntu Linux", "macOS"],
+        "Index": 18,
+        "Lines": "76-77"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Manual Introduction",
+        "Description": "This section introduces the Mojo Manual, providing a comprehensive guide to the Mojo programming language. It explains Mojo's design for AI development challenges, integration with MLIR for heterogeneous hardware, and its superset relationship with Python.",
+        "Key Words": ["Mojo Manual", "programming language", "AI development", "MLIR", "Python superset", "systems programming"],
+        "Index": 19,
+        "Lines": "80-81"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Value Lifecycle: Death of a Value",
+        "Description": "This section describes Mojo's approach to value destruction, detailing the 'as soon as possible' destruction policy, static compiler analysis, destructor usage, and advantages of ASAP destruction over scope-based destruction.",
+        "Key Words": ["value destruction", "ASAP destruction policy", "static compiler analysis", "__del__ destructor", "Mojo programming"],
+        "Index": 20,
+        "Lines": "84-85"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Value Lifecycle Introduction",
+        "Description": "An overview of Mojo's value lifecycle concept, discussing manual memory management in systems programming, value ownership, and the implementation of lifecycle methods like constructors, destructors, and move constructors.",
+        "Key Words": ["value lifecycle", "memory management", "value ownership", "constructors", "destructors", "move constructors"],
+        "Index": 21,
+        "Lines": "88-89"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Value Lifecycle: Life of a Value",
+        "Description": "This section covers the creation, copying, and moving of values in Mojo. It emphasizes the absence of default lifecycle methods in Mojo structs, the necessity of constructors, and the opt-in nature of copy and move constructors.",
+        "Key Words": ["value creation", "copy constructor", "move constructor", "structs", "lifecycle methods", "@value decorator"],
+        "Index": 22,
+        "Lines": "92-93"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Modules and Packages",
+        "Description": "This section explains how to package Mojo code for distribution and importing, detailing the concepts of Mojo modules and packages, and demonstrating how to create a packaged binary with the `mojo package` command.",
+        "Key Words": ["Mojo modules", "Mojo packages", "code distribution", "code importing", "package binary", "mojo package command"],
+        "Index": 23,
+        "Lines": "96-97"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Compile-Time Metaprogramming: Parameters",
+        "Description": "An in-depth exploration of Mojo's compile-time metaprogramming capabilities, focusing on parameters in functions and structs. It covers parameterized functions, structs, and the use of parameters in metaprogramming.",
+        "Key Words": ["metaprogramming", "compile-time parameters", "parameterized functions", "parameterized structs", "Mojo programming"],
+        "Index": 24,
+        "Lines": "100-101"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo and Python Integration",
+        "Description": "This section discusses Mojo's goal of becoming a superset of Python, allowing Python modules, functions, and objects to be used within Mojo. It covers the current state of Python feature implementation in Mojo, how to import Python modules, and the limitations of calling Mojo from Python.",
+        "Key Words": ["Python integration", "Mojo language", "module import", "Python modules", "Python objects", "Mojo limitations"],
+        "Index": 25,
+        "Lines": "104-105"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo and Python Type Conversions",
+        "Description": "Details the conversion process between Mojo and Python types, including automatic conversions and manual conversions for unsupported cases. It discusses working with Python dictionaries in Mojo and the special handling of PythonObject wrapper in Mojo code.",
+        "Key Words": ["type conversion", "Python types", "Mojo types", "PythonObject", "Python dictionaries"],
+        "Index": 26,
+        "Lines": "108-109"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Understanding Mojo Structs",
+        "Description": "Explains the concept of structs in Mojo, their use for encapsulating fields and methods, and how they differ from classes. It includes struct definitions, constructors, special methods, and the differences between Mojo structs and Python classes.",
+        "Key Words": ["structs", "Mojo programming", "fields and methods", "constructors", "classes vs structs"],
+        "Index": 27,
+        "Lines": "112-113"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Using Traits in Mojo",
+        "Description": "Covers the implementation and use of traits in Mojo, comparing them with similar features in other languages, and explaining how they can be used to define shared behaviors. It discusses trait inheritance, static methods in traits, and built-in traits in Mojo.",
+        "Key Words": ["traits", "Mojo language", "trait inheritance", "static methods", "built-in traits"],
+        "Index": 28,
+        "Lines": "116-117"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Memory Management: Stack and Heap",
+        "Description": "Provides an overview of memory management in Mojo, including how it handles stack and heap memory. It explains the differences in memory management strategies across programming languages and introduces Mojo's ownership model for memory management.",
+        "Key Words": ["memory management", "stack and heap", "Mojo ownership model", "programming languages", "memory strategies"],
+        "Index": 29,
+        "Lines": "120-121"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Value Ownership Model",
+        "Description": "Details Mojo's value ownership model, including argument conventions like 'borrowed', 'inout', and 'owned'. This section explains how Mojo manages memory through these conventions and the rules for their usage in function arguments.",
+        "Key Words": ["value ownership", "argument conventions", "memory management", "function arguments", "Mojo language"],
+        "Index": 30,
+        "Lines": "124-125"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Value Semantics in Mojo",
+        "Description": "Discusses the principles of value semantics in Mojo, how it differs from reference semantics, and the implementation of value semantics in 'def' and 'fn' functions. It also touches on the integration of Python-style reference semantics in Mojo.",
+        "Key Words": ["value semantics", "reference semantics", "def and fn functions", "Python integration", "Mojo programming"],
+        "Index": 31,
+        "Lines": "128-129"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Variables and Scopes",
+        "Description": "This section delves into the types and scopes of variables in Mojo, including mutable `var` and immutable `let` variables, type annotations, and variable scopes. It explains the distinction between undeclared, mutable, and immutable variables, and how variables are scoped within functions and blocks.",
+        "Key Words": ["variables", "scopes", "mutable var", "immutable let", "type annotations", "Mojo programming"],
+        "Index": 32,
+        "Lines": "132-133"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Mojo Roadmap & Sharp Edges",
+        "Description": "Outlines the roadmap for Mojo's development, detailing upcoming features, known issues, and areas of future improvement. It acknowledges the limitations of the current version, such as lack of certain Python features, incomplete traits support, and the absence of class support, and provides insights into planned enhancements.",
+        "Key Words": ["roadmap", "development plan", "known issues", "future features", "Mojo language progress"],
+        "Index": 33,
+        "Lines": "136-137"
+    },
+    {
+        "Knowledge Filename": "mojodocs.json",
+        "Title": "Why Mojo: Rationale and Goals",
+        "Description": "Presents the rationale behind the creation of the Mojo language, highlighting its goals to unify AI development, support heterogeneous systems, and integrate with Python. It discusses Mojo's unique features, such as MLIR-based compiler technology, and its intent to be a superset of Python.",
+        "Key Words": ["Mojo rationale", "AI development", "Python integration", "MLIR compiler technology", "Python superset"],
+        "Index": 34,
+        "Lines": "140-141"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Mojo Repository License",
+        "Description": "This section details the licensing of the Mojo repository under the Apache License v2.0 with LLVM Exceptions. It includes terms and conditions for use, reproduction, and distribution, definitions of legal terms, and the rights and obligations of licensors and contributors.",
+        "Key Words": ["Apache License v2.0", "LLVM Exceptions", "licensing", "copyright", "terms and conditions", "distribution"],
+        "Index": 0,
+        "Lines": "4-5"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
         "Title": "Mojo Code Examples README",
-        "Description": "Introduction to Mojo code examples, providing a collection of sample programs and notebooks written in the Mojo programming language. It includes instructions for getting started, running the programs, and setting up a Mojo SDK container.",
-        "Key Words": ["Mojo", "Code Examples", "Programming Language", "Getting Started", "Mojo SDK Container", "Dockerfile", "JupyterLab", "Visual Studio Code"],
+        "Description": "This section presents a collection of sample programs and Mojo notebooks, including details on how to get started, run programs, and set up a Mojo SDK container using Docker for developing and running Mojo programs.",
+        "Key Words": ["Mojo", "code examples", "programming", "Mojo SDK", "Docker", "JupyterLab", "Visual Studio Code", "conda environment"],
         "Index": 1,
-        "Lines": "7-9"
+        "Lines": "8-9"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "ModVerse Weekly - Issue 11",
+        "Description": "This document is the 11th issue of ModVerse Weekly, featuring updates on ModCon, community projects in the Mojo programming language, and highlights of finalists and runners-up in the ModCon Contest.",
+        "Key Words": ["ModVerse Weekly", "ModCon", "Mojo programming language", "community projects", "contest finalists"],
+        "Index": 2,
+        "Lines": "12-13"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
         "Title": "Mojo Matrix Slice Notebook",
-        "Description": "A Jupyter Notebook demonstrating the use of matrix slicing in the Mojo programming language. The content details are not specified in the excerpt.",
-        "Key Words": ["Mojo", "Matrix Slicing", "Notebook", "Programming Language", "Jupyter"],
-        "Index": 2,
-        "Lines": "11-12"
+        "Description": "This notebook demonstrates the use of matrix slicing operations in Mojo programming, including the initialization, copying, and slicing of matrices along with a demonstration of various slicing operations on an example matrix.",
+        "Key Words": ["Mojo", "matrix slicing", "programming notebook", "matrix operations", "data structures"],
+        "Index": 3,
+        "Lines": "16-17"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
         "Title": "Mojo Plotter README",
-        "Description": "README file for the Mojo Plotter, including installation and usage instructions. It covers setting up the conda environment and configuring Mojo to use the Python environment.",
-        "Key Words": ["Mojo Plotter", "Installation", "Conda Environment", "Usage", "Python Environment"],
-        "Index": 3,
-        "Lines": "15-16"
-    },
-    {
-        "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mojo Plotter Main Code",
-        "Description": "Main Mojo code for the Mojo Plotter, showing the integration with Python and use of the matplotlib library for plotting.",
-        "Key Words": ["Mojo Plotter", "Main Code", "Python Integration", "matplotlib", "Plotting"],
+        "Description": "This README file provides instructions for installing and using the Mojo Plotter, including setting up the conda environment and running the main.mojo program.",
+        "Key Words": ["Mojo Plotter", "installation guide", "conda environment", "README", "programming instructions"],
         "Index": 4,
-        "Lines": "19-20"
+        "Lines": "20-21"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "TensorUtils Initialization",
-        "Description": "Initialization file for the TensorUtils in Mojo, primarily containing import statements.",
-        "Key Words": ["TensorUtils", "Initialization", "Mojo", "Imports"],
+        "Title": "Mojo Plotter Main Program",
+        "Description": "The main.mojo file for the Mojo Plotter, showcasing a simple program for plotting a sine wave using Python modules imported within Mojo. It demonstrates Mojo's capability for Python interoperability.",
+        "Key Words": ["Mojo Plotter", "main program", "sine wave plotting", "Python interoperability", "matplotlib", "torch"],
         "Index": 5,
-        "Lines": "23-24"
+        "Lines": "24-25"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "TensorUtils Main Module",
-        "Description": "Main module of TensorUtils in Mojo, including functions related to tensor operations and printing.",
-        "Key Words": ["TensorUtils", "Main Module", "Tensor Operations", "Printing", "Mojo"],
+        "Title": "TensorUtils Initialization in Mojo",
+        "Description": "This section initializes the TensorUtils module in Mojo, setting up the necessary imports and configurations for the tensor operations to be performed in subsequent sections.",
+        "Key Words": ["TensorUtils", "Mojo", "module initialization", "programming"],
         "Index": 6,
-        "Lines": "27-28"
+        "Lines": "28-29"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "What's New in Mojo SDK v0.5 Notebook",
-        "Description": "A Jupyter Notebook outlining new features and enhancements in Mojo SDK version 0.5. The content details are not specified in the excerpt.",
-        "Key Words": ["Mojo SDK", "v0.5", "Updates", "Enhancements", "Notebook", "Jupyter"],
+        "Title": "TensorUtils Module in Mojo",
+        "Description": "This part of the file contains the TensorUtils.mojo module, which provides functionalities for tensor operations in Mojo, including printing and manipulating tensors of various dimensions and types.",
+        "Key Words": ["TensorUtils", "tensor operations", "Mojo module", "programming"],
         "Index": 7,
-        "Lines": "31-32"
+        "Lines": "32-33"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "What's New in Mojo SDK v0.5",
+        "Description": "This notebook highlights the new features and enhancements in Mojo SDK version 0.5, focusing on keyword parameters, automatic parameterization of functions, tensor operations, and SIMD enhancements.",
+        "Key Words": ["Mojo SDK v0.5", "new features", "keyword parameters", "automatic parameterization", "tensor operations", "SIMD enhancements"],
+        "Index": 8,
+        "Lines": "36-37"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
         "Title": "Check Module Python Script",
-        "Description": "Python script to check and install missing modules for Mojo examples. It includes functionality to handle module installation and error handling.",
-        "Key Words": ["Python Script", "Module Check", "Installation", "Error Handling", "Mojo Examples"],
-        "Index": 8,
-        "Lines": "35-36"
-    },
-    {
-        "Knowledge Filename": "mojoexamples.json",
-        "Title": "DeviceInfo in Mojo",
-        "Description": "Mojo code sample demonstrating how to print system information using various APIs from the sys module.",
-        "Key Words": ["DeviceInfo", "System Information", "Mojo", "APIs", "sys Module"],
+        "Description": "A Python script that checks for the existence of a specified module and installs it if missing. It handles possible exceptions and prints out a message for manual fixes following a specific GitHub issue comment.",
+        "Key Words": ["Python script", "module check", "installation", "GitHub issue", "exception handling"],
         "Index": 9,
-        "Lines": "39-40"
+        "Lines": "40-41"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Hello Mojo Sample",
-        "Description": "A simple Mojo program demonstrating basic range and print functions. It showcases fundamental capabilities of the Mojo language.",
-        "Key Words": ["Hello Mojo", "Sample Program", "Range Functions", "Print Functions", "Mojo Basics"],
+        "Title": "Device Information in Mojo",
+        "Description": "This Mojo program prints the current host system information using APIs from the sys module. It checks for operating system type, CPU features, and architecture using various functions and conditions.",
+        "Key Words": ["Mojo", "system information", "APIs", "CPU features", "operating system"],
         "Index": 10,
-        "Lines": "43-44"
+        "Lines": "44-45"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Hello Interop Mojo Sample",
-        "Description": "A Mojo program demonstrating basic range and print functions, and importing a Python program into Mojo for interoperability.",
-        "Key Words": ["Hello Interop", "Mojo", "Python Interoperability", "Range Functions", "Print Functions"],
+        "Title": "Basic Mojo Program with Range and Print",
+        "Description": "A simple Mojo program demonstrating basic functions like 'print' and 'range'. It prints a greeting message followed by a decreasing sequence of numbers using a for-loop.",
+        "Key Words": ["Mojo", "basic program", "print function", "range function", "for-loop"],
         "Index": 11,
-        "Lines": "47-48"
+        "Lines": "48-49"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mandelbrot Set in Mojo",
-        "Description": "Mojo implementation of the Mandelbrot set, showcasing complex number operations, parallelization, and vectorization.",
-        "Key Words": ["Mandelbrot Set", "Mojo", "Complex Numbers", "Parallelization", "Vectorization"],
+        "Title": "Hello Interop Mojo Program",
+        "Description": "A Mojo program demonstrating basic range and print functions, along with Python interoperability. It imports a Python module and calls a function from it, showcasing Mojo's ability to interoperate with Python.",
+        "Key Words": ["Mojo", "Python interoperability", "range", "print", "module import"],
         "Index": 12,
-        "Lines": "51-52"
+        "Lines": "52-53"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Matrix Multiplication in Mojo",
-        "Description": "Mojo code sample for matrix multiplication, demonstrating various system optimizations for performance speedups.",
-        "Key Words": ["Matrix Multiplication", "Mojo", "System Optimizations", "Performance Speedup"],
+        "Title": "Mandelbrot Implementation in Mojo",
+        "Description": "This Mojo program implements the Mandelbrot set using SIMD vectorization and parallelization. It includes detailed computations and optimizations for efficient execution.",
+        "Key Words": ["Mandelbrot set", "Mojo", "SIMD vectorization", "parallelization", "optimization"],
         "Index": 13,
-        "Lines": "55-56"
+        "Lines": "56-57"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Memset Implementation in Mojo",
-        "Description": "Mojo sample implementing various memset algorithms and optimizations, including performance measurement and visualization.",
-        "Key Words": ["Memset", "Implementation", "Mojo", "Algorithms", "Optimizations", "Performance Measurement"],
+        "Title": "Matrix Multiplication Optimizations in Mojo",
+        "Description": "An extensive Mojo program demonstrating various optimizations for matrix multiplication. It includes naive, vectorized, parallelized, tiled, and unrolled implementations, along with benchmarking against Python and Numpy.",
+        "Key Words": ["matrix multiplication", "Mojo", "optimizations", "vectorization", "benchmarking"],
         "Index": 14,
-        "Lines": "59-60"
+        "Lines": "60-61"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "N-Body Simulation in Mojo",
-        "Description": "This section includes a Mojo language implementation of the nbody benchmarking. The code, provided under Apache License v2.0, demonstrates the use of data structures like StaticTuple and SIMD for creating a simulation of planetary motion.",
-        "Key Words": ["N-Body Simulation", "Mojo Language", "Benchmarking", "StaticTuple", "SIMD", "Apache License"],
+        "Title": "Memset Implementations and Optimizations in Mojo",
+        "Description": "This Mojo sample implements various memset algorithms and optimizations. It measures the performance of different implementations and visualizes the results.",
+        "Key Words": ["memset", "Mojo", "optimizations", "performance measurement", "algorithm implementation"],
         "Index": 15,
-        "Lines": "62-66"
+        "Lines": "64-65"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Low-Level IR in Mojo with MLIR",
-        "Description": "A comprehensive exploration of Mojo's low-level intermediate representation (IR) capabilities using MLIR. This section discusses creating a boolean type in Mojo, leveraging MLIR features, and implementing value semantics.",
-        "Key Words": ["MLIR", "Intermediate Representation", "Mojo", "Boolean Type", "Value Semantics", "Zero-Cost Abstractions"],
+        "Title": "N-Body Problem Implementation in Mojo",
+        "Description": "This Mojo program implements the n-body problem, simulating the motion of celestial bodies. It uses advanced features of Mojo for calculations and benchmarks the performance.",
+        "Key Words": ["n-body problem", "Mojo", "celestial simulation", "benchmarking", "performance"],
         "Index": 16,
-        "Lines": "68-70"
+        "Lines": "68-69"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mojo Language Basics",
-        "Description": "An introduction to the basics of the Mojo programming language, highlighting its similarities with Python and unique systems programming features. The section covers language syntax, functions, variable declarations, and Python integration.",
-        "Key Words": ["Mojo", "Programming Language", "Python", "Syntax", "Systems Programming", "Type Checking", "Memory Safety"],
+        "Title": "Low-level IR in Mojo - BoolMLIR Notebook",
+        "Description": "A notebook discussing Mojo's integration with MLIR, focusing on low-level IR and the creation of a custom boolean type (`OurBool`). It explains the benefits of MLIR's modularity and extensibility in Mojo's high-level programming context.",
+        "Key Words": ["MLIR", "Mojo", "low-level IR", "custom boolean type", "programming notebook"],
         "Index": 17,
-        "Lines": "72-74"
+        "Lines": "72-73"
+    },
+    {
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Hello Mojo Jupyter Notebook",
+        "Description": "This Jupyter notebook provides an introduction to the Mojo programming language. It covers the basics of Mojo, including its similarities to Python, unique features, and the benefits of using Mojo for systems programming. The notebook includes examples of top-level code execution, language syntax, functions, and variable declarations.",
+        "Key Words": ["Mojo programming language", "Jupyter notebook", "Python integration", "systems programming", "language basics", "top-level code execution"],
+        "Index": 18,
+        "Lines": "76-77"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
         "Title": "Mandelbrot Set in Mojo with Python Plots",
-        "Description": "This section presents an implementation of the Mandelbrot set algorithm in Mojo, demonstrating how Mojo can be used alongside Python for tasks like GUIs and visualization. It includes Python interoperability and vectorization techniques.",
-        "Key Words": ["Mandelbrot Set", "Mojo", "Python Interoperability", "GUI", "Visualization", "Vectorization"],
-        "Index": 18,
-        "Lines": "76-78"
-    },
-    {
-        "Knowledge Filename": "mojoexamples.json",
-        "Title": "Matrix Multiplication in Mojo",
-        "Description": "A detailed exploration of implementing matrix multiplication in Mojo. This section progresses from a Python implementation to optimized Mojo versions using types, vectorization, tiling, and parallelization, with performance benchmarks.",
-        "Key Words": ["Matrix Multiplication", "Mojo", "Python Implementation", "Optimization", "Vectorization", "Tiling", "Parallelization", "Performance Benchmark"],
+        "Description": "A detailed notebook demonstrating the implementation of the Mandelbrot set algorithm in Mojo. It showcases the use of Python libraries for visualization and combines Mojo's high-performance capabilities with Python's GUI features. The notebook covers parameter setting, algorithm implementation, vectorizing and parallelizing the Mandelbrot computation, and Python integration for plotting.",
+        "Key Words": ["Mandelbrot set", "Mojo", "Python integration", "vectorization", "parallelization", "visualization", "matplotlib"],
         "Index": 19,
         "Lines": "80-81"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Fast memset in Mojo",
-        "Description": "This section covers the implementation of a fast memset function in Mojo, utilizing Mojo's autotuning feature. It includes a detailed explanation of the approach, high-level overview, implementation steps, and various optimizations for different sizes.",
-        "Key Words": ["memset", "Mojo", "autotuning", "optimization", "memory access", "vector width", "size checks", "implementation"],
+        "Title": "Matrix Multiplication in Mojo",
+        "Description": "This notebook explores various techniques for implementing matrix multiplication in Mojo. It starts with a Python implementation, then progresses through untyped, naive, vectorized, and parallelized Mojo implementations. It also includes benchmarks, demonstrating the performance gains with each approach.",
+        "Key Words": ["Matrix multiplication", "Mojo", "Python implementation", "vectorization", "parallelization", "performance benchmarking"],
         "Index": 20,
         "Lines": "84-85"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mojo Jupyter notebooks",
-        "Description": "This part explains how Mojo supports programming in Jupyter notebooks, similar to Python. It includes instructions for getting started with Mojo notebooks, using Visual Studio Code, and some notes and tips for coding in Mojo within Jupyter notebooks.",
-        "Key Words": ["Mojo", "Jupyter notebooks", "programming", "Visual Studio Code", "installation", "code behavior", "Python integration"],
+        "Title": "Fast Memset in Mojo",
+        "Description": "The notebook covers an optimized implementation of the memset function in Mojo. It utilizes Mojo's autotuning feature to optimize performance for different sizes. The notebook discusses the high-level overview, implementation details, and benchmarking of various memset versions.",
+        "Key Words": ["memset", "Mojo", "autotuning", "performance optimization", "benchmarking"],
         "Index": 21,
         "Lines": "88-89"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Ray tracing in Mojo",
-        "Description": "This tutorial demonstrates implementing ray tracing in Mojo, covering steps from basic definitions to adding background, specular lighting, and more. It explains the creation of `Vec3f` and `Image` structs, ray tracing algorithm, and provides code examples.",
-        "Key Words": ["ray tracing", "Mojo", "tutorial", "Vec3f struct", "Image struct", "lighting", "background", "3D graphics"],
+        "Title": "Mojo Jupyter Notebooks README",
+        "Description": "This README provides an overview of using Mojo with Jupyter notebooks. It explains how to get started with Mojo notebooks, both in Visual Studio Code and JupyterLab. The README also includes notes and tips for working with Mojo in these environments.",
+        "Key Words": ["Mojo", "Jupyter notebooks", "Visual Studio Code", "JupyterLab", "programming tutorial"],
         "Index": 22,
         "Lines": "92-93"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mojo Programming Manual",
-        "Description": "An introduction to the Mojo programming language, discussing its ease of use, performance, and Python compatibility. It covers the use of the Mojo compiler, basic systems programming extensions, parameterization, and compile-time metaprogramming.",
-        "Key Words": ["Mojo", "programming manual", "compiler", "systems programming", "parameterization", "metaprogramming", "Python integration"],
+        "Title": "Ray Tracing in Mojo",
+        "Description": "A comprehensive tutorial on implementing ray tracing in Mojo. The notebook covers basic definitions, image struct creation, and ray tracing implementation with spheres and lighting. It also details adding specular lighting and background to the ray tracing setup.",
+        "Key Words": ["ray tracing", "Mojo", "tutorial", "lighting", "specular lighting", "image struct"],
         "Index": 23,
         "Lines": "96-97"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Python Matrix Multiplication",
-        "Description": "A Python script demonstrating naive matrix multiplication, including benchmarking against NumPy's matrix multiplication. The script showcases Python's implementation of matrix multiplication and compares its performance with NumPy's implementation.",
-        "Key Words": ["Python", "Matrix Multiplication", "Benchmark", "NumPy", "Performance Comparison", "Python Script", "Naive Implementation"],
+        "Title": "Sharing Mojo Notebooks",
+        "Description": "This notebook explains how to share Mojo notebooks with other users. It provides step-by-step instructions for sharing a notebook, including how to copy a shared notebook and the associated caveats.",
+        "Key Words": ["Mojo notebooks", "sharing", "collaboration", "tutorial"],
         "Index": 24,
         "Lines": "100-101"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Mojo Reduce Sample",
-        "Description": "A Mojo sample that implements a simple reduction operation on a large array of values. It includes the use of Kahan summation algorithm for simple summation, comparison with standard library reduction, and benchmarking of the methods.",
-        "Key Words": ["Mojo", "Reduction Operation", "Array", "Kahan Summation Algorithm", "Benchmarking", "Standard Library", "Algorithm Patterns"],
+        "Title": "Python Matrix Multiplication Script",
+        "Description": "A Python script demonstrating naive matrix multiplication. It includes a benchmarking function to measure the throughput of matrix multiplication both in pure Python and using NumPy.",
+        "Key Words": ["Python", "matrix multiplication", "naive implementation", "benchmarking", "NumPy"],
         "Index": 25,
         "Lines": "104-105"
     },
     {
         "Knowledge Filename": "mojoexamples.json",
-        "Title": "Simple Python Interoperability Test",
-        "Description": "This Python script is used to test the interoperability of Python with Mojo. It includes a function that prints a greeting and a NumPy array, showcasing the integration of standard Python functionality and NumPy library in a Mojo environment.",
-        "Key Words": ["Python Interoperability", "Mojo", "NumPy", "Python Script", "Functionality Test"],
+        "Title": "Reduce Operation in Mojo",
+        "Description": "A Mojo sample implementing a simple reduction operation on a large array of values. It includes comparisons between a naive reduction sum and a standard library function, demonstrating performance differences.",
+        "Key Words": ["reduction operation", "Mojo", "array processing", "performance comparison", "standard library function"],
         "Index": 26,
         "Lines": "108-109"
     },
     {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "MIT License Information",
-        "Description": "Details the MIT License under which the 'mojo-learning' project is released. It includes permissions and conditions related to the use, modification, and distribution of the software.",
-        "Key Words": ["MIT License", "Copyright", "Software Use", "Distribution", "Permissions"],
+        "Knowledge Filename": "mojoexamples.json",
+        "Title": "Simple Python Program for Mojo Interoperability",
+        "Description": "This Python script, designed for interoperability with Mojo, demonstrates a simple Python program that can be imported and used within Mojo. It includes a function that prints a greeting and demonstrates the use of NumPy by creating and displaying a NumPy array.",
+        "Key Words": ["Python", "Mojo interoperability", "script", "NumPy", "array"],
+        "Index": 27,
+        "Lines": "112-113"
+    },
+    {
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - vector",
+        "Description": "This section from Modular Docs focuses on vector-like classes in the Mojo programming language, particularly the InlinedFixedVector, UnsafeFixedVector, and DynamicVector. It provides detailed information about their initialization, usage, functions, and traits, offering a comprehensive guide for efficient vector manipulation in Mojo.",
+        "Key Words": ["InlinedFixedVector", "UnsafeFixedVector", "DynamicVector", "Mojo", "Vector Manipulation", "Programming"],
         "Index": 0,
-        "Lines": "2-5"
+        "Lines": "5-6"
     },
     {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Learning Mojo Language - README",
-        "Description": "Provides an overview of various tutorials and resources for learning the mojo programming language. This section contains links to different learning modules and documentation.",
-        "Key Words": ["Mojo Language", "Tutorials", "Learning Resources", "Documentation", "Programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - static_tuple",
+        "Description": "This segment outlines the StaticTuple, a statically-sized uniform container in Mojo. It discusses its initialization, element access, size, and usage, providing essential insights into working with homogeneous types in a fixed-size tuple structure.",
+        "Key Words": ["StaticTuple", "Mojo", "Statically-sized Container", "Homogeneous Types", "Tuple Structure"],
         "Index": 1,
-        "Lines": "7-9"
+        "Lines": "10-11"
     },
     {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Autotune: Optimization Made Easy",
-        "Description": "Tutorial on using autotune for optimization in mojo language. It includes examples and explanations on how to determine the optimal choice in different scenarios.",
-        "Key Words": ["Autotune", "Optimization", "Mojo Language", "Performance Tuning", "Code Example"],
-        "Index": 2,
-        "Lines": "11-13"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Callbacks Through Parameters",
-        "Description": "A tutorial demonstrating the use of callbacks through parameters in mojo programming. Includes code examples and output demonstrations.",
-        "Key Words": ["Callbacks", "Parameters", "Mojo Programming", "Tutorial", "Code Example"],
-        "Index": 3,
-        "Lines": "16-17"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Calling Mojo Functions from Python",
-        "Description": "Explains how to call mojo functions from Python, including building a wrapper and using various features like VariadicList and Parametrized function.",
-        "Key Words": ["Mojo Functions", "Python Integration", "Wrapper", "Code Example", "Feature Explanation"],
-        "Index": 4,
-        "Lines": "20-21"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Making Compile Time Functions",
-        "Description": "Tutorial on creating compile time functions in mojo, with a focus on executing functions at compile time and runtime.",
-        "Key Words": ["Compile Time Functions", "Runtime", "Mojo Language", "Tutorial", "Programming Concepts"],
-        "Index": 5,
-        "Lines": "24-25"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Env, Argv, and Param_env",
-        "Description": "Covers the usage of environment variables, command-line arguments, and compile-time parameters in mojo programming.",
-        "Key Words": ["Environment Variables", "Command-Line Arguments", "Compile-Time Parameters", "Mojo Programming", "Tutorial"],
-        "Index": 6,
-        "Lines": "28-29"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Getattr: Dynamic and Static Struct Members",
-        "Description": "A guide on using the __getattr__ method to access both dynamic and static struct members in mojo language.",
-        "Key Words": ["Getattr", "Dynamic Struct Members", "Static Struct Members", "Mojo Language", "Programming Guide"],
-        "Index": 7,
-        "Lines": "32-33"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Introduction to Types",
-        "Description": "An introduction to various types in mojo programming, covering variable declarations, common types, and function usage.",
-        "Key Words": ["Types", "Variable Declaration", "Mojo Programming", "Function Usage", "Programming Basics"],
-        "Index": 8,
-        "Lines": "36-37"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Making Lists of Structs with Magic Operators",
-        "Description": "Details the use of magic operators in mojo for creating lists of structs, with attention to lifetimes and ownership concepts.",
-        "Key Words": ["Magic Operators", "Lists of Structs", "Mojo Programming", "Lifetimes", "Ownership"],
-        "Index": 9,
-        "Lines": "40-41"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Making Test Builds Using a Custom Flag",
-        "Description": "Discusses the process of making test builds in mojo using a custom flag, including examples and notes on testing importance.",
-        "Key Words": ["Test Builds", "Custom Flag", "Mojo Programming", "Testing", "Programming Practice"],
-        "Index": 10,
-        "Lines": "44-45"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "ASAP: Destructor Behaviors",
-        "Description": "Explains the concept of ASAP (as soon as possible) in mojo, focusing on destructor behaviors and memory management.",
-        "Key Words": ["ASAP", "Destructor Behaviors", "Memory Management", "Mojo Programming", "Resource Management"],
-        "Index": 11,
-        "Lines": "48-49"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Moveinit, Copyinit, Takeinit",
-        "Description": "Covers the concepts of moveinit, copyinit, and takeinit in mojo programming, with examples and explanations of each.",
-        "Key Words": ["Moveinit", "Copyinit", "Takeinit", "Mojo Programming", "Code Concepts"],
-        "Index": 12,
-        "Lines": "52-53"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Multi-Core Parallelization with SIMD",
-        "Description": "Tutorial on how to use multi-core processing and SIMD for parallelization in mojo programming, including examples and analogies.",
-        "Key Words": ["Multi-Core", "Parallelization", "SIMD", "Mojo Programming", "Performance Optimization"],
-        "Index": 13,
-        "Lines": "56-57"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "SIMD Cosine with Numpy",
-        "Description": "Demonstrates the use of SIMD for cosine calculations in combination with Numpy, including the integration of Python and mojo.",
-        "Key Words": ["SIMD", "Cosine Calculations", "Numpy", "Python Integration", "Mojo Programming"],
-        "Index": 14,
-        "Lines": "60-61"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Parameters, Alias, Struct Parameter Deduction",
-        "Description": "Explores the use of parameters, alias, and struct parameter deduction in mojo, providing examples and explanations.",
-        "Key Words": ["Parameters", "Alias", "Struct Parameter Deduction", "Mojo Programming", "Code Example"],
-        "Index": 15,
-        "Lines": "64-65"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Parametric Struct Through CPU Registers",
-        "Description": "Discusses how to create parametric structs that utilize CPU registers for faster data access and manipulation in mojo.",
-        "Key Words": ["Parametric Struct", "CPU Registers", "Data Access", "Mojo Programming", "Performance Optimization"],
-        "Index": 16,
-        "Lines": "68-69"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Python Land and Mojo Land, PythonObject",
-        "Description": "Explains the concept of PythonObject in mojo programming, highlighting its ability to bridge Python and mojo lands for data and function interoperability.",
-        "Key Words": ["Python Land", "Mojo Land", "PythonObject", "Interoperability", "Programming Integration"],
-        "Index": 17,
-        "Lines": "72-73"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Reader in Few Lines with Endian-ness",
-        "Description": "Tutorial explaining how to read data in mojo with different endian-ness using various features like alias, bitcasted pointers, generic structs, and compile-time programming.",
-        "Key Words": ["Endian-ness", "File Reader", "Mojo Programming", "Alias", "Bitcasted Pointer", "Generic Struct", "Compile-time Programming"],
-        "Index": 18,
-        "Lines": "76-77"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Struct as a Namespace",
-        "Description": "Demonstrates using a struct as a namespace in mojo programming, including the use of the '@staticmethod' decorator and PythonObject for integrating Python functions.",
-        "Key Words": ["Struct", "Namespace", "Static Method", "Mojo Programming", "Python Integration", "PythonObject"],
-        "Index": 19,
-        "Lines": "80-81"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Try and Except: Error Handling in Mojo",
-        "Description": "Tutorial on handling errors in mojo using 'try' and 'except' blocks, with examples illustrating various scenarios and error-handling strategies.",
-        "Key Words": ["Error Handling", "Try Block", "Except Block", "Mojo Programming", "Exception Handling"],
-        "Index": 20,
-        "Lines": "84-85"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Using Python in Mojo",
-        "Description": "Covers the integration of Python in mojo programming, demonstrating various Python functionalities such as list comprehensions, method calls, and working with pip modules.",
-        "Key Words": ["Python Integration", "Mojo Programming", "List Comprehension", "Method Calls", "PIP Modules"],
-        "Index": 21,
-        "Lines": "88-89"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Vectorize SIMD Cosine",
-        "Description": "Tutorial on vectorizing SIMD cosine calculations in mojo, including practical implementation examples and integration with Python for plotting.",
-        "Key Words": ["SIMD", "Cosine Calculation", "Vectorization", "Mojo Programming", "Python Plotting"],
-        "Index": 22,
-        "Lines": "92-93"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Understanding Updates and Changelogs in Mojo",
-        "Description": "Provides insights into how to stay updated with new changes and improvements in mojo, using changelogs to understand new features, bug fixes, and removed features.",
-        "Key Words": ["Updates", "Changelogs", "Mojo Programming", "New Features", "Bug Fixes"],
-        "Index": 23,
-        "Lines": "96-97"
-    },
-    {
-        "Knowledge Filename": "mojolearning.json",
-        "Title": "Using 'With' Blocks for Struct Parametric Minimal Raise",
-        "Description": "Explains how to use 'with' blocks in mojo for struct parametrization and error handling, including handling errors raised within 'with' blocks.",
-        "Key Words": ["With Blocks", "Struct Parametrization", "Error Handling", "Mojo Programming", "Parametric Programming"],
-        "Index": 24,
-        "Lines": "100-101"
-    },
-
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Mojo language basics",
-        "Description": "This section provides an introduction to the Mojo programming language, highlighting its design for high-performance systems programming and compatibility with Python. It covers language basics, syntax, functions, variables, argument types, and structures. The section also discusses Mojo's integration with Python, its compiled nature, and unique language features distinct from Python, like strong type-checking and memory safety. Additionally, it offers insights into the language's development status and roadmap.",
-        "Key Words": ["Mojo", "Programming Language", "Systems Programming", "Python Compatibility", "Syntax", "Functions", "Variables", "Type-Checking", "Memory Safety", "Python Integration", "Compiled Language", "Language Features", "Development Roadmap"],
-        "Index": 0,
-        "Lines": "3-6"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Get started with Mojo🔥",
-        "Description": "This section provides a comprehensive guide for getting started with the Mojo SDK, available for Ubuntu Linux and macOS systems. It covers system requirements, installation instructions, and updates for both the Mojo SDK and the Modular CLI. The section highlights the Mojo Playground, a web-based Jupyter notebook environment for experimenting with Mojo. It also mentions the Mojo extension for Visual Studio Code, designed to enhance the development experience with features like code completion and quick fixes.",
-        "Key Words": ["Mojo SDK", "Installation", "Modular CLI", "Ubuntu Linux", "macOS", "Apple Silicon", "Visual Studio Code Extension", "Mojo Playground", "Jupyter Notebook", "Development Environment", "System Requirements"],
-        "Index": 1,
-        "Lines": "7-11"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Overview of Mojo Programming Language",
-        "Description": "This section offers an overview of the Mojo programming language, emphasizing its design for high-performance systems programming and its compatibility with Python. It covers the basics of Mojo's syntax, semantics, functions, variables, and structures. The section also discusses how Mojo maintains Python's dynamic features while introducing systems programming capabilities, strong type-checking, and memory safety. Additionally, it touches on Mojo's integration with Python, and its compiled nature, including ahead-of-time (AOT) and just-in-time (JIT) compilation.",
-        "Key Words": ["Mojo Programming Language", "Systems Programming", "Python Compatibility", "Syntax", "Semantics", "Functions", "Variables", "Structures", "Type-Checking", "Memory Safety", "Compiled Language", "AOT Compilation", "JIT Compilation"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - list",
+        "Description": "This part of the documentation covers utilities for working with static and variadic lists in Mojo, including the Dim and DimList classes. It elaborates on their properties, functions, and practical applications, highlighting the versatility of list handling in Mojo.",
+        "Key Words": ["Dim", "DimList", "Mojo", "Static Lists", "Variadic Lists", "List Utilities"],
         "Index": 2,
         "Lines": "15-16"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Getting Started with Mojo SDK",
-        "Description": "This section provides detailed instructions for getting started with the Mojo SDK. It highlights the availability of the SDK for Ubuntu Linux and macOS systems, along with upcoming support for Windows. The section also outlines the system requirements for using the Mojo SDK, installation steps, and information on updating the SDK. Furthermore, it introduces the Mojo Playground, a web-based Jupyter notebook environment for experimenting with Mojo, and discusses the Mojo extension for Visual Studio Code.",
-        "Key Words": ["Mojo SDK", "Ubuntu Linux", "macOS", "Apple Silicon", "Windows Support", "System Requirements", "Installation", "SDK Updates", "Mojo Playground", "Jupyter Notebook", "Visual Studio Code Extension"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - index",
+        "Description": "This section details the StaticIntTuple in Mojo, a base struct for representing N-D indices. It includes descriptions of various operations and comparisons that can be performed on these tuples, offering a deep dive into handling multi-dimensional indices in Mojo.",
+        "Key Words": ["StaticIntTuple", "Mojo", "N-D Indices", "Tuple Operations", "Multi-dimensional"],
         "Index": 3,
         "Lines": "20-21"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo🔥 FAQ",
-        "Description": "This section addresses frequently asked questions about the Mojo programming language. It covers various topics including the motivation behind Mojo's development, its unique features, the rationale for building upon Python, and Mojo's technical advancements over other languages. The section also explores Mojo's functionality, performance, SDK, versioning, and community aspects. Additionally, it addresses Mojo's applicability beyond AI, its compilation methods, integration with PyTorch and TensorFlow, and plans for future open-sourcing.",
-        "Key Words": ["FAQ", "Mojo Programming Language", "Development Motivation", "Python Integration", "Technical Advancements", "Functionality", "Performance", "Mojo SDK", "Versioning", "Community", "Open Source", "PyTorch Integration", "TensorFlow Integration", "Compilation Methods"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - tensor_spec",
+        "Description": "This segment covers the TensorSpec type in Mojo, providing a space-efficient representation of tensor shapes and data types. It includes methods for initialization, comparison, and retrieval of tensor specifications, essential for managing tensor data in Mojo.",
+        "Key Words": ["TensorSpec", "Mojo", "Tensor Shape", "Data Types", "Tensor Management"],
         "Index": 4,
         "Lines": "25-26"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo SDK and Modular CLI Updates",
-        "Description": "This section details the process for obtaining and updating the Mojo SDK and Modular CLI. It outlines the system requirements for different operating systems, including Ubuntu Linux and macOS with Apple silicon, and discusses the upcoming support for Windows. The section also introduces the Mojo Playground, a web-based Jupyter notebook environment for Mojo experimentation. Additionally, it provides information on updating Mojo and the Modular CLI, ensuring users have access to the latest tools and features.",
-        "Key Words": ["Mojo SDK", "Modular CLI", "System Requirements", "Ubuntu Linux", "macOS", "Apple Silicon", "Windows Support", "Mojo Playground", "Jupyter Notebook", "SDK Update", "CLI Update"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - testing",
+        "Description": "This part of the documentation introduces various testing utilities in Mojo. It focuses on different assertion functions like assert_true, assert_false, and assert_equal, which are crucial for effective testing and validation of code in Mojo programming.",
+        "Key Words": ["Testing Utilities", "Mojo", "Assertions", "assert_true", "assert_false", "assert_equal"],
         "Index": 5,
         "Lines": "30-31"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo🔥 Changelog",
-        "Description": "This section provides a comprehensive changelog for the Mojo programming language and its tools. It details significant updates, new features, changes, and bug fixes across various versions of Mojo. The changelog is essential for users to understand the evolution of the language, including its capabilities, improvements, and fixes in different releases.",
-        "Key Words": ["Changelog", "Mojo Programming Language", "Updates", "New Features", "Bug Fixes", "Version History", "Language Evolution", "Tool Improvements"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - time",
+        "Description": "This section explains the time module in Mojo, highlighting basic utilities like now, time_function, and sleep for working with time. It provides insights into measuring and manipulating time in various contexts within the Mojo language.",
+        "Key Words": ["Time Module", "Mojo", "now", "time_function", "sleep", "Time Manipulation"],
+        "Index": 6,
+        "Lines": "35-36"
+    },
+    {
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - tensor_shape",
+        "Description": "This segment provides a comprehensive overview of the TensorShape type in Mojo. It discusses its functionality, initialization, and application in defining tensor shapes, vital for tensor operations and manipulations in Mojo.",
+        "Key Words": ["TensorShape", "Mojo", "Tensor Operations", "Shape Initialization", "Tensor Manipulation"],
         "Index": 7,
         "Lines": "40-41"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo🔥 Roadmap & Sharp Edges",
-        "Description": "This section outlines the roadmap and acknowledges the 'sharp edges' of Mojo, detailing the language's development priorities, acknowledged issues, and upcoming features. It highlights Mojo's current focus on core system programming features, its integration with Python, and the intentional omission of minor new features and syntactic sugar. The section also addresses known SDK issues and outlines small independent features, ownership and lifetimes, protocols/traits, class support, C/C++ interop, and full MLIR decorator reflection.",
-        "Key Words": ["Roadmap", "Mojo", "Development Priorities", "Sharp Edges", "System Programming", "Python Integration", "SDK Issues", "Features", "C/C++ Interop", "MLIR Decorator"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - tensor",
+        "Description": "This part details the Tensor type in Mojo, showcasing its capabilities, initialization methods, and operations. It serves as an essential guide for working with tensors in Mojo, covering aspects like data storage, manipulation, and tensor-based computations.",
+        "Key Words": ["Tensor", "Mojo", "Data Storage", "Tensor Operations", "Computations", "Initialization"],
         "Index": 8,
         "Lines": "45-46"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo CLI - mojo run Command",
-        "Description": "This section provides detailed information on the 'mojo run' command within the Mojo Command Line Interface (CLI). It describes how to build and execute a Mojo file, including syntax, options, and command line arguments. The section covers various compilation and diagnostic options, as well as experimental compilation options, offering insights into the functionality and customization available in the Mojo CLI.",
-        "Key Words": ["Mojo CLI", "mojo run", "Command Syntax", "Compilation Options", "Diagnostic Options", "Execution", "CLI Customization"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - param_env",
+        "Description": "This section discusses the 'param_env' module in Mojo, focusing on functions like is_defined, env_get_int, and env_get_string, which facilitate retrieval of compile-time defines. These functions are useful for setting parameter values or runtime constants based on command-line defined name-value pairs.",
+        "Key Words": ["param_env", "Compile-time Defines", "Mojo", "is_defined", "env_get_int", "env_get_string"],
         "Index": 9,
         "Lines": "50-51"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo CLI - mojo repl Command",
-        "Description": "This section delves into the 'mojo repl' command of the Mojo Command Line Interface. It describes how to launch the Mojo Read-Evaluate-Print Loop (REPL) environment for interactive development, including command line options and arguments. The section is essential for understanding how to use the REPL for experimenting and testing Mojo code in a dynamic and interactive way.",
-        "Key Words": ["Mojo CLI", "mojo repl", "REPL Environment", "Interactive Development", "Command Line Options"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - intrinsics",
+        "Description": "This section covers the 'intrinsics' module in Mojo, detailing various intrinsics like PrefetchLocality, llvm_intrinsic, gather, and scatter. It provides insights into the prefetching mechanisms, memory operations, and the usage of LLVM intrinsics within Mojo.",
+        "Key Words": ["Intrinsics", "Mojo", "PrefetchLocality", "LLVM Intrinsics", "Memory Operations", "gather", "scatter"],
         "Index": 10,
         "Lines": "55-56"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo CLI - mojo package Command",
-        "Description": "This section covers the 'mojo package' command, explaining how to compile a directory of Mojo source files into a binary package. It provides insights into creating Mojo packages, setting output paths, and compilation options. The section is crucial for developers looking to package and share their Mojo programs and modules efficiently.",
-        "Key Words": ["Mojo CLI", "mojo package", "Compilation", "Binary Package", "Source Files", "Output Options"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - info",
+        "Description": "This part of the documentation presents the 'info' module in Mojo. It includes functions like is_x86, has_sse4, and os_is_macos, which provide information about the host system's architecture, supported instruction sets, and operating system.",
+        "Key Words": ["info", "System Architecture", "Mojo", "Instruction Sets", "Operating System Detection"],
         "Index": 11,
         "Lines": "60-61"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo CLI - mojo format Command",
-        "Description": "This section details the 'mojo format' command, which is used for formatting Mojo source files. It outlines the command syntax, options for setting max character line length, and diagnostic options. This section is particularly useful for developers seeking to maintain code quality and consistency in their Mojo projects.",
-        "Key Words": ["Mojo CLI", "mojo format", "Source Formatting", "Command Syntax", "Line Length", "Diagnostic Options"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - arg",
+        "Description": "This section introduces the 'arg' module in Mojo, focusing on the argv function. It explains how to interact with execution and system environment in Mojo, particularly in terms of handling command line arguments.",
+        "Key Words": ["arg", "Mojo", "Command Line Arguments", "System Environment", "argv"],
         "Index": 12,
         "Lines": "65-66"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - mojo doc",
-        "Description": "This section covers the 'mojo doc' command from the Mojo CLI, which compiles docstrings from Mojo files into JSON format. It provides a synopsis of the command, its usage, and various options for output, compilation, and validation. This tool is essential for generating structured documentation from Mojo code comments.",
-        "Key Words": ["mojo doc", "Documentation", "Docstrings", "JSON Output", "Mojo CLI", "Command Options", "Compilation Options", "Validation Options"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - random",
+        "Description": "The 'random' module in Mojo is elaborated in this section. It includes functions like seed, random_float64, and rand, which are essential for generating random numbers and filling memory with random values.",
+        "Key Words": ["random", "Random Number Generation", "Mojo", "seed", "random_float64", "rand"],
         "Index": 13,
-        "Lines": "69-71"
+        "Lines": "70-71"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - mojo demangle",
-        "Description": "This section provides an overview of the 'mojo demangle' command in the Mojo CLI. It explains that this command is used to demangle Mojo symbol names. The usage is described as 'mojo demangle [options] <name>', which demangles the provided name, printing the demangled version. The section includes a synopsis, a detailed description, and lists common options, including '--help, -h' for help information.",
-        "Key Words": ["Mojo CLI", "mojo demangle", "demangle", "symbol names", "command options", "usage", "CLI", "Mojo"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - python",
+        "Description": "This segment of the documentation is dedicated to Python interoperability in Mojo, as covered in the 'python' module. It outlines various functions like eval, add_to_path, and import_module, which facilitate the use of Python code within Mojo.",
+        "Key Words": ["Python Interoperability", "Mojo", "Python Integration", "eval", "import_module"],
         "Index": 14,
-        "Lines": "74-76"
+        "Lines": "75-76"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - mojo debug",
-        "Description": "This section discusses the 'mojo debug' command, which launches the LLDB debugger for debugging Mojo programs. It includes a synopsis, a detailed description, and mentions that this feature supports not only Mojo but also standard languages like C and C++. The section also lists common options, including '--help, -h' for help information.",
-        "Key Words": ["Mojo CLI", "mojo debug", "debugging", "LLDB debugger", "Mojo programs", "C language", "C++ language", "command options"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - object",
+        "Description": "This section focuses on the 'object' module in Mojo, specifically the PythonObject. It discusses the initialization, manipulation, and interaction of Python objects within Mojo, including various operators and functions like __add__, __getitem__, and __call__.",
+        "Key Words": ["PythonObject", "Mojo", "Python Objects Manipulation", "Object Operators", "__add__", "__getitem__"],
         "Index": 15,
-        "Lines": "79-81"
+        "Lines": "80-81"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - mojo build",
-        "Description": "This part covers the 'mojo build' command, which compiles Mojo files into executables. It provides a synopsis, detailed usage instructions, and various options for output, compilation, and diagnostics. The section emphasizes features like setting output paths, disabling optimizations, and setting compilation targets.",
-        "Key Words": ["Mojo CLI", "mojo build", "compilation", "executable", "Mojo files", "output options", "compilation options", "diagnostic options"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - path",
+        "Description": "The 'path' module in Mojo is detailed in this section, highlighting the Path object and related functions like exists, read_text, and suffix. It provides insights into file system path manipulations and operations in Mojo.",
+        "Key Words": ["Path Module", "Mojo", "File System Path", "Path Manipulation", "exists", "read_text"],
         "Index": 16,
-        "Lines": "84-86"
+        "Lines": "85-86"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - mojo",
-        "Description": "This section gives an overview of the Mojo command line interface (CLI). It outlines the primary functions and commands available in the mojo CLI, including running, building, packaging, and debugging Mojo code. Specific commands and options are detailed, with emphasis on usage and version checking.",
-        "Key Words": ["Mojo CLI", "mojo command", "Mojo development", "run command", "build command", "package command", "debug command"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - env",
+        "Description": "This part of the documentation covers the 'env' module in Mojo, which implements basic routines for interacting with the OS. Functions like setenv and getenv are discussed, providing functionalities for managing environment variables.",
+        "Key Words": ["env", "Operating System Interaction", "Mojo", "setenv", "getenv", "Environment Variables"],
         "Index": 17,
-        "Lines": "89-91"
+        "Lines": "90-91"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - vector",
-        "Description": "This segment explains the 'vector' module in Mojo's standard library, focusing on classes like InlinedFixedVector, UnsafeFixedVector, and DynamicVector. It details their initialization, usage, and functions such as append, clear, and getitem. The section is crucial for understanding vector implementations in Mojo.",
-        "Key Words": ["Mojo standard library", "vector module", "InlinedFixedVector", "UnsafeFixedVector", "DynamicVector", "vector operations", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - atomic",
+        "Description": "This section elaborates on the 'atomic' module in Mojo, focusing on the Atomic class which supports atomic operations. Key functionalities include atomic in-place add and sub methods, fetch_add, fetch_sub, and operations like max and min, providing essential tools for safe, concurrent manipulation of shared data.",
+        "Key Words": ["Atomic", "Mojo", "Atomic Operations", "Concurrency", "fetch_add", "fetch_sub", "max", "min"],
         "Index": 18,
-        "Lines": "94-96"
+        "Lines": "95-96"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - static_tuple",
-        "Description": "This part of the document delves into the 'static_tuple' module from Mojo's standard library. It introduces the StaticTuple, a statically-sized, homogeneous container. The section covers its initialization, item access, and modification methods, providing a comprehensive understanding of static tuple usage in Mojo.",
-        "Key Words": ["Mojo standard library", "static_tuple module", "StaticTuple", "homogeneous container", "tuple operations", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - unsafe",
+        "Description": "This section covers the 'unsafe' module in Mojo, detailing the implementation of unsafe pointers. It focuses on classes like AddressSpace and Pointer, along with functions such as bitcast and various methods for pointer manipulation, emphasizing the handling and operations of pointers in unsafe programming contexts.",
+        "Key Words": ["Unsafe", "Pointers", "Mojo", "AddressSpace", "Pointer Manipulation", "Bitcast", "Unsafe Programming"],
         "Index": 19,
-        "Lines": "99-101"
+        "Lines": "100-101"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - list",
-        "Description": "This section covers the 'list' module in Mojo's standard library, focusing on utilities for working with static and variadic lists. It includes detailed information about the Dim and DimList types, their initialization, and functions such as __init__, __bool__, __eq__, and __mul__. The section is essential for understanding list handling in Mojo programming.",
-        "Key Words": ["Mojo standard library", "list module", "Dim", "DimList", "static lists", "variadic lists", "list operations", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - math",
+        "Description": "This section outlines the 'math' module in Mojo, featuring a wide array of mathematical functions and operations. It covers operations like modulo, multiplication, subtraction, addition, division, and more complex functions such as clamp, abs, rotate_bits, floor, ceil, round, sqrt, exp, log, and trigonometric functions. These utilities are crucial for various mathematical computations in Mojo.",
+        "Key Words": ["Math Module", "Mojo", "Mathematical Functions", "Arithmetic Operations", "Trigonometric Functions", "Modulo", "Multiplication", "Division"],
         "Index": 20,
-        "Lines": "104-106"
+        "Lines": "105-106"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - index",
-        "Description": "This part discusses the 'index' module in Mojo's standard library. It details the StaticIntTuple type, commonly used for representing N-D indices. The section provides insights into its size agnostic index functions, element manipulation methods like __getitem__ and __setitem__, and comparison operations such as __lt__, __le__, __eq__, and __ne__.",
-        "Key Words": ["Mojo standard library", "index module", "StaticIntTuple", "N-D indices", "index functions", "tuple operations", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - memory",
+        "Description": "The 'memory' module in Mojo is detailed in this section. It focuses on memory manipulation functions like memcmp, memcpy, memset, and stack_allocation. These functions are essential for handling memory operations such as comparison, copying, setting, and dynamic allocation within Mojo programs.",
+        "Key Words": ["Memory Module", "Mojo", "Memory Manipulation", "memcmp", "memcpy", "memset", "Dynamic Memory Allocation"],
         "Index": 21,
-        "Lines": "109-111"
+        "Lines": "110-111"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - time",
-        "Description": "This segment explains the 'time' module from Mojo's standard library, providing utilities for time management. Key functions include now(), which returns current monotonic time, time_function() for measuring function execution time, and sleep() for suspending threads. The section is crucial for understanding time-related functions in Mojo.",
-        "Key Words": ["Mojo standard library", "time module", "time management", "now function", "time_function", "sleep function", "thread suspension", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - buffer",
+        "Description": "This section introduces the 'buffer' module in Mojo, elaborating on the Buffer class and its functionalities. Key aspects include initialization, data access, SIMD operations, and memory management techniques. It also covers advanced concepts like NDBuffer and DynamicRankBuffer, offering comprehensive tools for buffer manipulation in Mojo.",
+        "Key Words": ["Buffer Module", "Mojo", "Buffer Class", "Memory Management", "SIMD Operations", "NDBuffer", "DynamicRankBuffer"],
         "Index": 22,
-        "Lines": "114-116"
+        "Lines": "115-116"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - testing",
-        "Description": "This part covers the 'testing' module in Mojo's standard library. It delves into various testing utilities like assert_true, assert_false, assert_equal, assert_not_equal, and assert_almost_equal. The section provides a comprehensive overview of assertion functions and their usage in Mojo programming.",
-        "Key Words": ["Mojo standard library", "testing module", "testing utilities", "assertion functions", "assert_true", "assert_false", "assert_equal", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - polynomial",
+        "Description": "This section covers the 'polynomial' module in Mojo, detailing two implementations for evaluating polynomials. It describes the Estrin and Horner schemes for polynomial evaluation, applicable for degrees between 4 and 10, and any degree, respectively. The section includes examples and parameter descriptions for these polynomial evaluation methods.",
+        "Key Words": ["Polynomial Module", "Mojo", "Evaluating Polynomials", "Estrin Scheme", "Horner Scheme", "Polynomial Evaluation"],
         "Index": 23,
-        "Lines": "119-121"
+        "Lines": "120-121"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - tensor_spec",
-        "Description": "This section discusses the 'tensor_spec' module in Mojo's standard library, focusing on the TensorSpec type. It outlines the efficient representation of tensor shapes and dtypes, including initialization methods and operations like __getitem__, __eq__, and __ne__. The section is important for understanding tensor specifications in Mojo.",
-        "Key Words": ["Mojo standard library", "tensor_spec module", "TensorSpec type", "tensor shape", "dtype", "tensor operations", "Mojo programming"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - limit",
+        "Description": "The 'limit' module in Mojo is outlined in this section. It focuses on functions like inf, neginf, isinf, isfinite, and max_finite, which are used to query numeric properties of types, particularly in floating-point contexts. This module offers essential utilities for handling infinite values and determining numeric limits.",
+        "Key Words": ["Limit Module", "Mojo", "Numeric Properties", "Floating-point Contexts", "Infinite Values", "Numeric Limits"],
         "Index": 24,
-        "Lines": "124-126"
+        "Lines": "125-126"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - tensor_shape",
-        "Description": "This part focuses on the 'tensor_shape' module, detailing the TensorShape type in Mojo's standard library. It covers its efficient representation of tensor shapes, including initialization methods, operations like __getitem__, __eq__, and __ne__, and functions for managing tensor shapes.",
-        "Key Words": ["Mojo standard library", "tensor_shape module", "TensorShape type", "tensor management", "initialization", "tensor operations", "Mojo programming"],
-        "Index": 26,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - bit",
+        "Description": "This section details the 'bit' module in Mojo, encompassing functions for bit manipulation like ctlz, cttz, select, bitreverse, and bswap. It explains their usage in counting leading/trailing zeros, selecting between values based on conditions, reversing bit patterns, and byte-swapping, crucial for low-level data manipulation.",
+        "Key Words": ["Bit Module", "Mojo", "Bit Manipulation", "Leading Zeros", "Trailing Zeros", "Bit Reversal", "Byte Swapping"],
+        "Index": 25,
         "Lines": "130-131"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - tensor",
-        "Description": "This section discusses the 'tensor' module in Mojo's standard library, focusing on the Tensor type. It outlines the Tensor type's capabilities, including its data ownership, parameterization on DType, and various operations like __getitem__, __setitem__, __eq__, and __ne__.",
-        "Key Words": ["Mojo standard library", "tensor module", "Tensor type", "data ownership", "DType", "tensor operations", "Mojo programming"],
-        "Index": 27,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - complex",
+        "Description": "The 'complex' module in Mojo is elaborated in this section. It introduces the ComplexSIMD class, providing methods for complex number manipulations like addition, multiplication, and norm calculations. It's essential for working with complex numbers in SIMD (Single Instruction, Multiple Data) contexts within Mojo.",
+        "Key Words": ["Complex Module", "Mojo", "Complex Numbers", "ComplexSIMD", "SIMD Contexts", "Complex Arithmetic"],
+        "Index": 26,
         "Lines": "135-136"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - param_env",
-        "Description": "This part covers the 'param_env' module in Mojo's standard library, providing functions for retrieving compile-time defines. It details how to use these functions to set parameter values or runtime constants based on command line defined name-value pairs, enhancing Mojo programming flexibility.",
-        "Key Words": ["Mojo standard library", "param_env module", "compile-time defines", "parameter setting", "runtime constants", "command line integration", "Mojo programming"],
-        "Index": 28,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - value",
+        "Description": "This section focuses on the 'value' module in Mojo, defining core value traits like Movable and Copyable. It describes functionalities like moving and copying values, with examples and function details. This module is crucial for understanding value manipulation and object lifetime in Mojo.",
+        "Key Words": ["Value Module", "Mojo", "Value Traits", "Movable", "Copyable", "Value Manipulation", "Object Lifetime"],
+        "Index": 27,
         "Lines": "140-141"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - intrinsics",
-        "Description": "This section delves into the 'intrinsics' module from Mojo's standard library, defining various intrinsics. It covers functionalities like PrefetchLocality, PrefetchRW, and PrefetchCache, along with LLVM intrinsic calls and operations like gather, scatter, prefetch, masked load, and masked store.",
-        "Key Words": ["Mojo standard library", "intrinsics module", "PrefetchLocality", "PrefetchRW", "PrefetchCache", "LLVM intrinsic calls", "gather", "scatter", "prefetch", "masked load", "masked store", "Mojo programming"],
-        "Index": 29,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - type_aliases",
+        "Description": "The 'type_aliases' module in Mojo is discussed in this section. It defines various type aliases used in Mojo, like AnyType, AnyRegType, NoneType, and Lifetime. These aliases are essential for simplifying and clarifying the code, especially in type specification and value lifetime management.",
+        "Key Words": ["Type Aliases Module", "Mojo", "Type Specification", "Value Lifetime Management", "AnyType", "AnyRegType", "NoneType"],
+        "Index": 28,
         "Lines": "145-146"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - info",
-        "Description": "This part discusses the 'info' module in Mojo's standard library, which implements methods for querying host target information. It provides functions like is_x86, has_sse4, has_avx, os_is_macos, and simd_bit_width, among others, to determine various system and architecture specifications.",
-        "Key Words": ["Mojo standard library", "info module", "host target information", "system specifications", "architecture details", "is_x86", "has_sse4", "has_avx", "os_is_macos", "simd_bit_width", "Mojo programming"],
-        "Index": 30,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - tuple",
+        "Description": "This section introduces the 'tuple' module in Mojo, implementing the Tuple type. It details tuple initialization, copying, and element access methods. The tuple type is a fundamental data structure in Mojo, allowing the grouping of multiple values of possibly different types into a single entity.",
+        "Key Words": ["Tuple Module", "Mojo", "Tuple Type", "Data Structure", "Initialization", "Copying", "Element Access"],
+        "Index": 29,
         "Lines": "150-151"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - arg",
-        "Description": "Documentation on 'arg' module of Mojo Standard Library. Details on handling command line arguments and the 'argv()' function.",
-        "Key Words": ["Mojo", "Standard Library", "arg Module", "Command Line Arguments", "argv Function"],
-        "Index": 32,
-        "Lines": "154-156"
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - stringref",
+        "Description": "This section covers the 'stringref' module in Mojo, implementing the StringRef class. It discusses how to construct and interact with constant string references, and provides a detailed overview of the functionalities such as string comparison, length retrieval, and element access.",
+        "Key Words": ["StringRef", "Mojo", "Constant String Reference", "String Comparison", "Element Access"],
+        "Index": 30,
+        "Lines": "155-156"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Python Object",
-        "Description": "Explains the PythonObject module in Mojo, focusing on Python-Mojo interoperability, and operations on Python objects.",
-        "Key Words": ["Mojo", "PythonObject Module", "Python-Mojo Interoperability", "Python Objects"],
-        "Index": 33,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - string_literal",
+        "Description": "The 'string_literal' module in Mojo is detailed in this section. It focuses on the StringLiteral class, its construction, and operations like equality comparison, concatenation, and length retrieval. This module is vital for understanding the manipulation of string literals in Mojo.",
+        "Key Words": ["StringLiteral", "Mojo", "String Literals", "Concatenation", "Equality Comparison"],
+        "Index": 31,
         "Lines": "160-161"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Python",
-        "Description": "Discusses the Python module in Mojo, detailing methods for Python code execution and handling Python types.",
-        "Key Words": ["Mojo", "Python Module", "Python Code Execution", "Python Types"],
-        "Index": 34,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - string",
+        "Description": "This section introduces the 'string' module in Mojo, elaborating on the String class and its functionalities. It covers string construction, manipulation, comparison, joining, counting, and searching, offering a comprehensive overview of string handling in Mojo.",
+        "Key Words": ["String", "Mojo", "String Manipulation", "String Comparison", "String Searching"],
+        "Index": 32,
         "Lines": "165-166"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Random",
-        "Description": "Details the Random module in Mojo, including functions for random number generation and seeding the generator.",
-        "Key Words": ["Mojo", "Random Module", "Random Number Generation", "Seeding"],
-        "Index": 35,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - str",
+        "Description": "The 'str' module in Mojo is discussed in this section. It defines the Stringable trait and its associated functions, focusing on converting various data types to string representations. This module is crucial for working with string conversion and printing in Mojo.",
+        "Key Words": ["str", "Mojo", "String Conversion", "Stringable Trait", "Data Type Conversion"],
+        "Index": 33,
         "Lines": "170-171"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Pathlib Path",
-        "Description": "Focuses on the Pathlib Path module in Mojo, covering filesystem path operations like initialization, comparison, and manipulation.",
-        "Key Words": ["Mojo", "Pathlib Path Module", "Filesystem Paths", "Path Operations"],
-        "Index": 36,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - simd",
+        "Description": "This section covers the 'simd' module in Mojo, which implements the SIMD struct. It provides details on SIMD vector operations such as addition, subtraction, multiplication, division, and various logical operations, essential for parallel computing and efficient data processing in Mojo.",
+        "Key Words": ["SIMD", "Mojo", "Vector Operations", "Parallel Computing", "Data Processing"],
+        "Index": 34,
         "Lines": "175-176"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - Math",
-        "Description": "Covers the Math module, detailing mathematical operations and functions such as trigonometry, logarithms, and vector operations in Mojo.",
-        "Key Words": ["Mojo", "Math Module", "Mathematical Operations", "Trigonometry", "Logarithms", "Vector Operations"],
-        "Index": 37,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - rebind",
+        "Description": "The 'rebind' module in Mojo is outlined in this section. It focuses on type rebind functionality, allowing the reassignment of types under certain conditions. This module is key for advanced type manipulation and ensuring type consistency in Mojo.",
+        "Key Words": ["Rebind", "Mojo", "Type Reassignment", "Type Consistency", "Advanced Type Manipulation"],
+        "Index": 35,
         "Lines": "180-181"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - env",
-        "Description": "Details the 'env' module, part of the Mojo OS package. Focuses on functions for environment variable manipulation like 'setenv' and 'getenv'.",
-        "Key Words": ["Mojo", "OS Package", "env Module", "Environment Variables", "setenv", "getenv"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - range",
+        "Description": "This section introduces the 'range' module in Mojo, detailing the construction and usage of range types. It discusses various range constructors for creating sequences of numbers, which are fundamental in loop structures and iteration processes in Mojo.",
+        "Key Words": ["Range", "Mojo", "Number Sequences", "Loop Structures", "Iteration Processes"],
+        "Index": 36,
+        "Lines": "185-186"
+    },
+    {
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - object",
+        "Description": "The 'object' module in Mojo is elaborated in this section. It discusses the object type used to represent untyped values and the associated functionalities such as attribute manipulation and type conversion. This module is essential for working with dynamic and untyped data in Mojo.",
+        "Key Words": ["Object", "Mojo", "Untyped Values", "Attribute Manipulation", "Type Conversion"],
+        "Index": 37,
+        "Lines": "190-191"
+    },
+    {
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - len",
+        "Description": "This section covers the 'len' module in Mojo, focusing on the Sized trait and the len() function. It provides insights into determining the length of various data types and handling errors that might occur during length computation. This module is crucial for working with data structures that have a definable length in Mojo.",
+        "Key Words": ["len", "Mojo", "Sized Trait", "Length Computation", "Data Structures"],
         "Index": 38,
-        "Lines": "184-186"
+        "Lines": "195-196"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - atomic",
-        "Description": "Explains the 'atomic' module in Mojo's OS package, discussing the Atomic class and its methods for atomic operations.",
-        "Key Words": ["Mojo", "OS Package", "atomic Module", "Atomic Class", "Atomic Operations"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - io",
+        "Description": "This section introduces the 'io' module in Mojo, offering utilities for input/output operations. It covers functions like put_new_line, print, and print_no_newline for printing various data types including strings, boolean values, float literals, integers, and more, facilitating basic I/O tasks in Mojo.",
+        "Key Words": ["io", "Mojo", "Input/Output Operations", "Printing Functions", "put_new_line", "print", "print_no_newline"],
         "Index": 39,
-        "Lines": "189-191"
+        "Lines": "200-201"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - unsafe",
-        "Description": "Covers the 'unsafe' module in Mojo's Memory package, focusing on pointers and memory manipulation functions.",
-        "Key Words": ["DTypePointer", "Mojo", "Memory Package", "unsafe Module", "Pointers", "Memory Manipulation"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - int_literal",
+        "Description": "The 'int_literal' module in Mojo is detailed here. It discusses the IntLiteral class, representing static integer literals with infinite precision. The section elaborates on its construction, arithmetic operations, boolean conversion, and comparison operators, essential for compile-time integer operations in Mojo.",
+        "Key Words": ["int_literal", "Mojo", "Integer Literals", "Infinite Precision", "Arithmetic Operations", "Boolean Conversion"],
         "Index": 40,
-        "Lines": "194-196"
+        "Lines": "205-206"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - memory",
-        "Description": "Details the 'memory' module in Mojo, including memory manipulation functions like 'memcmp', 'memcpy', and 'memset'.",
-        "Key Words": ["Mojo", "memory Module", "Memory Manipulation", "memcmp", "memcpy", "memset"],
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - int",
+        "Description": "This section covers the 'int' module in Mojo, focusing on the Int class. It provides insights into integer manipulations including arithmetic operations, bitwise operations, comparisons, and type conversions. It's a fundamental module for handling integer values in various programming scenarios in Mojo.",
+        "Key Words": ["int", "Mojo", "Integer Class", "Arithmetic Operations", "Bitwise Operations", "Comparisons", "Type Conversions"],
         "Index": 41,
-        "Lines": "199-201"
-    },
-    {
-		"Knowledge Filename": "mojodocs.json",
-        "Title": "Modular Docs - buffer",
-		"Description": "This section from the Modular Docs describes the Buffer class in Mojo's standard library, focusing on memory management. It includes details on initializing buffers, manipulating buffer data, and various operations like SIMD load/store, prefetching, byte counting, zeroing, and memory allocation. The section also covers NDBuffer and DynamicRankBuffer, highlighting their functionalities, such as handling multi-dimensional data and dynamic ranks.",
-		"Key Words": ["Buffer", "NDBuffer", "DynamicRankBuffer", "memory", "SIMD", "prefetch", "bytecount", "zero", "fill", "aligned stack allocation", "stack allocation"],
-		"Index": 42,
-		"Lines": "205-206"
-	},
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Polynomial Module in Mojo Standard Library",
-        "Description": "This section details the 'polynomial' module in the Mojo Standard Library. It includes two methods for evaluating polynomials, using the Estrin scheme and the Horner scheme, and outlines their respective parameters and returns.",
-        "Key Words": ["Mojo", "Standard Library", "Math", "Polynomial", "Estrin Scheme", "Horner Scheme", "polynomial_evaluate"],
-        "Index": 43,
         "Lines": "210-211"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Limit Module in Mojo Standard Library",
-        "Description": "The 'limit' module in Mojo's standard library includes functions for handling mathematical limits, such as 'inf', 'neginf', 'isinf', and 'isfinite'. Each function is thoroughly documented with its constraints, parameters, and return values.",
-        "Key Words": ["Mojo", "Standard Library", "Math", "Limit", "Infinity", "Finite", "isinf", "isfinite"],
-        "Index": 44,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - float_literal",
+        "Description": "The 'float_literal' module in Mojo is discussed here. It details the FloatLiteral class, used for floating-point literals. This segment explains its construction, arithmetic operations, comparisons, and conversions, highlighting its utility in floating-point computations and conversions in Mojo.",
+        "Key Words": ["float_literal", "Mojo", "Floating Point Literals", "Arithmetic Operations", "Comparisons", "Conversions"],
+        "Index": 42,
         "Lines": "215-216"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Bit Manipulation in Mojo Standard Library",
-        "Description": "This section covers the 'bit' module, providing functions for bit manipulation in the Mojo Standard Library. It includes various operations like 'ctlz', 'cttz', 'select', and 'bswap', each with detailed descriptions and usage.",
-        "Key Words": ["Mojo", "Standard Library", "Math", "Bit Manipulation", "ctlz", "cttz", "select", "bitreverse", "bswap"],
-        "Index": 45,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - file",
+        "Description": "This section introduces the 'file' module in Mojo, focusing on file handling operations. It includes the FileHandle class for managing file operations such as open, read, write, and close. The module is crucial for file manipulation, reading, and writing in Mojo.",
+        "Key Words": ["file", "Mojo", "File Handling", "FileHandle", "Read File", "Write File", "File Operations"],
+        "Index": 43,
         "Lines": "220-221"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Complex Module in Mojo Standard Library",
-        "Description": "This section introduces the 'Complex' module, implementing the ComplexSIMD type for complex number operations in Mojo. It details various functions like '__init__', '__neg__', '__add__', and '__mul__', along with their parameters and returns.",
-        "Key Words": ["Mojo", "Standard Library", "Complex", "ComplexSIMD", "Complex Operations", "__init__", "__neg__", "__add__", "__mul__"],
-        "Index": 46,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - error",
+        "Description": "The 'error' module in Mojo is elaborated in this section. It details the Error class, which represents error types and includes functionalities for error handling, such as constructors, string representation, and boolean conversion. This module is essential for effective error management in Mojo.",
+        "Key Words": ["error", "Mojo", "Error Handling", "Error Class", "Error Representation", "Boolean Conversion"],
+        "Index": 44,
         "Lines": "225-226"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Type Aliases in Mojo Builtin Library",
-        "Description": "The 'type_aliases' module in the Mojo Builtin Library defines several type aliases like 'AnyType', 'NoneType', and 'Lifetime', each representing specific Mojo data types or concepts.",
-        "Key Words": ["Mojo", "Builtin Library", "Type Aliases", "AnyType", "NoneType", "Lifetime"],
-        "Index": 47,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - dtype",
+        "Description": "This section covers the 'dtype' module in Mojo, implementing the DType class. It provides methods for working with data types, including checking data type properties, size, and bitwidth, and dispatching functions based on data type. It's pivotal for data type management and manipulation in Mojo.",
+        "Key Words": ["dtype", "Mojo", "DType Class", "Data Type Management", "Size", "Bitwidth", "Function Dispatching"],
+        "Index": 45,
         "Lines": "230-231"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Tuple Module in Mojo Builtin Library",
-        "Description": "This section describes the 'Tuple' module in Mojo's builtin library, implementing the Tuple type. It covers the Tuple type's construction, operations, and functions like '__init__', '__copyinit__', and '__len__'.",
-        "Key Words": ["Mojo", "Builtin Library", "Tuple", "Tuple Operations", "__init__", "__copyinit__", "__len__"],
-        "Index": 48,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - destructable",
+        "Description": "The 'destructable' module in Mojo is outlined in this section. It defines the Destructable trait, describing types that have destructors for memory management. It includes examples and explanations for implementing destructors, essential for managing the lifecycle of objects in Mojo.",
+        "Key Words": ["destructable", "Mojo", "Destructors", "Memory Management", "Object Lifecycle", "Destructable Trait"],
+        "Index": 46,
         "Lines": "235-236"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "StringRef Class in Mojo Builtin Library",
-        "Description": "The 'StringRef' class in Mojo's builtin library is detailed in this section. It represents a constant reference to a string and includes functions for construction, comparison, and access, such as '__init__', '__bool__', and '__getitem__'.",
-        "Key Words": ["Mojo", "Builtin Library", "StringRef", "String Reference", "__init__", "__bool__", "__getitem__"],
-        "Index": 49,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - debug_assert",
+        "Description": "This section introduces the 'debug_assert' module in Mojo, which implements a debug assert function. It's used to assert conditions in debug builds, being a no-op in release builds. The module is crucial for validating conditions and ensuring code correctness during development.",
+        "Key Words": ["debug_assert", "Mojo", "Debug Assertion", "Code Validation", "Development Tool"],
+        "Index": 47,
         "Lines": "240-241"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "StringLiteral Class in Mojo Builtin Library",
-        "Description": "This section covers the 'StringLiteral' class, representing string literals in Mojo's builtin library. It includes details on its construction, comparison, concatenation, and length operations, along with methods like '__init__', '__bool__', and '__eq__'.",
-        "Key Words": ["Mojo", "Builtin Library", "StringLiteral", "String Operations", "__init__", "__bool__", "__eq__"],
-        "Index": 50,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - coroutine",
+        "Description": "The 'coroutine' module in Mojo is detailed here. It covers the Coroutine and RaisingCoroutine classes, providing mechanisms for pausing and resuming execution. The module is key for asynchronous programming in Mojo, enabling efficient management of execution flow and state.",
+        "Key Words": ["coroutine", "Mojo", "Asynchronous Programming", "Coroutine Classes", "Execution Flow Management"],
+        "Index": 48,
         "Lines": "245-246"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "String Class in Mojo Builtin Library",
-        "Description": "This section elaborates on the 'String' class in Mojo's builtin library, representing mutable strings. It discusses methods for string construction, manipulation, and querying, including '__init__', '__add__', and '__len__'.",
-        "Key Words": ["Mojo", "Builtin Library", "String", "Mutable String", "__init__", "__add__", "__len__"],
-        "Index": 51,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - constrained",
+        "Description": "This section discusses the 'constrained' module in Mojo, which implements compile-time constraints similar to C++'s static_assert. It allows for assertions on conditions within a function's scope, enhancing code robustness and correctness.",
+        "Key Words": ["constrained", "Compile-time Constraints", "Mojo", "Static Assert", "Code Robustness"],
+        "Index": 49,
         "Lines": "250-251"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "SIMD Struct in Mojo Builtin Library",
-        "Description": "The 'SIMD' struct in Mojo's builtin library, providing functionality for working with small hardware-backed vectors, is detailed in this section. It includes methods for initialization, arithmetic operations, and comparisons like '__init__', '__add__', and '__eq__'.",
-        "Key Words": ["Mojo", "Builtin Library", "SIMD", "Hardware Vectors", "Vector Operations", "__init__", "__add__", "__eq__"],
-        "Index": 52,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - builtin_slice",
+        "Description": "The 'builtin_slice' module in Mojo, detailed in this section, implements slice functionality. It covers usage and operations such as creating slices with start, end, and step values, and methods for accessing and comparing slices.",
+        "Key Words": ["builtin_slice", "Mojo", "Slice", "Indexing", "Slice Creation", "Slice Comparison"],
+        "Index": 50,
         "Lines": "255-256"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Object Type in Mojo Builtin Library",
-        "Description": "This section discusses the 'object' type in Mojo's builtin library, used for representing untyped values. It includes information about the 'Attr' class, object initialization, and various functions like '__init__', '__bool__', and '__getitem__'.",
-        "Key Words": ["Mojo", "Builtin Library", "Object", "Untyped Values", "Attr Class", "__init__", "__bool__", "__getitem__"],
-        "Index": 53,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - builtin_list",
+        "Description": "This section introduces the 'builtin_list' module in Mojo. It focuses on the ListLiteral class, which represents heterogenous list expressions, and provides functionalities like list construction and element access.",
+        "Key Words": ["builtin_list", "Mojo", "ListLiteral", "Heterogenous Lists", "List Construction", "Element Access"],
+        "Index": 51,
+        "Lines": "260-261"
+    },
+    {
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - bool",
+        "Description": "The 'bool' module in Mojo is discussed here, focusing on the Bool class. It covers the representation and operations on boolean values, including initialization, logical operations, and conversion methods.",
+        "Key Words": ["bool", "Mojo", "Bool Class", "Boolean Values", "Logical Operations", "Type Conversion"],
+        "Index": 52,
         "Lines": "265-266"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Range Module in Mojo Builtin Library",
-        "Description": "This section describes the 'range' module in Mojo, providing functionality to create various types of ranges, including zero-starting, sequential, and strided ranges, with detailed argument and return descriptions.",
-        "Key Words": ["Mojo", "Builtin Library", "Range", "Zero-Starting Range", "Sequential Range", "Strided Range"],
-        "Index": 54,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - benchmark",
+        "Description": "This section covers the 'benchmark' module in Mojo, which implements runtime benchmarking features. It includes tools for performance measurement, such as function execution time and iteration statistics, enabling effective performance analysis.",
+        "Key Words": ["benchmark", "Mojo", "Performance Measurement", "Runtime Benchmarking", "Execution Time Analysis"],
+        "Index": 53,
         "Lines": "270-271"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Len Function in Mojo Builtin Library",
-        "Description": "The 'len' function in Mojo's builtin library offers the ability to determine the length of various data types, including SIMD values, fixed vectors, strings, and tuples, with detailed parameter information.",
-        "Key Words": ["Mojo", "Builtin Library", "Len Function", "Length", "SIMD", "Fixed Vector", "String", "Tuple"],
-        "Index": 55,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - base64",
+        "Description": "The 'base64' module in Mojo, outlined in this section, provides functions for base64 encoding of strings. It details the usage and application of base64 encoding, essential for data encoding scenarios in Mojo.",
+        "Key Words": ["base64", "Mojo", "String Encoding", "Base64 Encoding", "Data Encoding"],
+        "Index": 54,
         "Lines": "275-276"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "IO Module in Mojo Builtin Library",
-        "Description": "This section covers the 'io' module in Mojo, offering input/output utilities such as printing and newline functions. It details various print functions for different data types and their arguments.",
-        "Key Words": ["Mojo", "Builtin Library", "IO", "Input", "Output", "Print", "Newline"],
-        "Index": 56,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - autotuning",
+        "Description": "This section introduces the 'autotuning' module in Mojo, which implements autotune functionality. It covers features like compilation forking for evaluating multiple values, and searching for optimal implementations among candidates.",
+        "Key Words": ["autotuning", "Mojo", "Autotune Functionality", "Compilation Forking", "Optimal Implementation Search"],
+        "Index": 55,
         "Lines": "280-281"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Int Class in Mojo Builtin Library",
-        "Description": "The 'Int' class in Mojo represents integer values and includes methods for initialization, conversion, and arithmetic operations. The section details each method's purpose and usage.",
-        "Key Words": ["Mojo", "Builtin Library", "Int Class", "Integer", "Arithmetic Operations", "Initialization", "Conversion"],
-        "Index": 57,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - sort",
+        "Description": "The 'sort' module in Mojo, discussed in this section, implements sorting functions. It details various sorting techniques and functions, including in-place sorting and partitioning of vectors and dynamic arrays.",
+        "Key Words": ["sort", "Mojo", "Sorting Functions", "In-place Sorting", "Partitioning", "Vectors", "Dynamic Arrays"],
+        "Index": 56,
         "Lines": "285-286"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "FloatLiteral Class in Mojo Builtin Library",
-        "Description": "This section explains the 'FloatLiteral' class in Mojo, used for floating-point literals. It includes methods for initialization, boolean conversion, arithmetic, and type casting, along with their specifications.",
-        "Key Words": ["Mojo", "Builtin Library", "FloatLiteral", "Floating Point", "Arithmetic", "Type Casting"],
-        "Index": 58,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - reduction",
+        "Description": "This section covers the 'reduction' module in Mojo. It focuses on SIMD reductions and includes functionalities like map_reduce, max, min, sum, and more. These are essential for efficient data processing and statistical computations in Mojo.",
+        "Key Words": ["reduction", "Mojo", "SIMD Reductions", "Data Processing", "Statistical Computations", "map_reduce", "Sum", "Max", "Min"],
+        "Index": 57,
         "Lines": "290-291"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "File Module in Mojo Builtin Library",
-        "Description": "The 'file' module in Mojo provides file handling capabilities. It details the 'FileHandle' class for managing file operations like opening, reading, writing, and closing files, along with context management.",
-        "Key Words": ["Mojo", "Builtin Library", "File Module", "File Handling", "FileHandle", "Read", "Write", "Close"],
-        "Index": 59,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - functional",
+        "Description": "The 'functional' module in Mojo is detailed here. It implements higher-order functions and covers aspects like map, unroll, vectorize, async_parallelize, and sync_parallelize, providing advanced functional programming capabilities in Mojo.",
+        "Key Words": ["functional", "Mojo", "Higher-order Functions", "Map", "Unroll", "Vectorize", "Parallelization"],
+        "Index": 58,
         "Lines": "295-296"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "DType Class in Mojo Builtin Library",
-        "Description": "This section delves into the 'DType' class in Mojo, essential for representing data types. It includes methods for checking data type properties, size, and dispatch functions, providing a comprehensive overview of its capabilities.",
-        "Key Words": ["Mojo", "Builtin Library", "DType Class", "Data Types", "Size", "Dispatch Functions"],
-        "Index": 60,
+        "Knowledge Filename": "mojostdlib.json",
+        "Title": "Modular Docs - Mojo🔥 modules",
+        "Description": "This section provides an overview of all modules in the Mojo standard library. It includes a wide range of functionalities from basic data types like integers and strings to advanced features like autotuning and tensor manipulation.",
+        "Key Words": ["Mojo Modules", "Standard Library", "Data Types", "Autotuning", "Tensor Manipulation", "Functional Programming"],
+        "Index": 59,
         "Lines": "300-301"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Error Class in Mojo Builtin Library",
-        "Description": "The 'Error' class in Mojo represents error conditions and includes methods for error initialization, copying, conversion to string, and memory management. This section provides a detailed look at its functionalities.",
-        "Key Words": ["Mojo", "Builtin Library", "Error Class", "Error Handling", "Memory Management", "String Conversion"],
-        "Index": 61,
-        "Lines": "305-306"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo run",
+        "Description": "This section provides documentation for the 'mojo run' command, detailing its purpose for building and executing a Mojo file. It includes a synopsis, description of the command, options for compilation like disabling optimizations, setting target triple, CPU, and features, along with diagnostic and experimental compilation options.",
+        "Key Words": ["mojo run", "compilation", "Mojo file", "command line options", "compiler optimizations", "target triple", "CPU features", "diagnostics"],
+        "Index": 0,
+        "Lines": "5-6"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Debug Assert Function in Mojo Builtin Library",
-        "Description": "This section covers the 'debug_assert' function in Mojo, which provides a way to assert conditions in debug builds. It explains the function's usage and parameters for effective debugging.",
-        "Key Words": ["Mojo", "Builtin Library", "Debug Assert", "Condition Check", "Debugging"],
-        "Index": 62,
-        "Lines": "310-311"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo repl",
+        "Description": "This section covers the 'mojo repl' command, explaining its use for launching the Mojo Read-Evaluate-Print Loop (REPL) environment for interactive development. It includes details on command line options and arguments that are forwarded to the underlying LLDB tool.",
+        "Key Words": ["mojo repl", "REPL environment", "interactive development", "LLDB tool", "command line arguments"],
+        "Index": 1,
+        "Lines": "10-11"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Coroutine Module in Mojo Builtin Library",
-        "Description": "The 'coroutine' module in Mojo implements classes and methods for coroutines, enabling pausing and resuming execution with saved state. It details classes like 'CoroutineContext' and 'RaisingCoroutine', along with functions for coroutine handling.",
-        "Key Words": ["Mojo", "Builtin Library", "Coroutine", "CoroutineContext", "RaisingCoroutine", "Execution State"],
-        "Index": 63,
-        "Lines": "315-316"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo package",
+        "Description": "This segment documents the 'mojo package' command, which is used for compiling a directory of Mojo source files into a binary package. It outlines the process of creating a Mojo package, output options, and compilation settings, including architecture and CPU specifications.",
+        "Key Words": ["mojo package", "Mojo source files", "binary package", "compilation settings", "architecture", "CPU specifications"],
+        "Index": 2,
+        "Lines": "15-16"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Constrained Module in Mojo Builtin Library",
-        "Description": "This section covers the 'constrained' module in Mojo, providing compile-time constraints similar to static_assert in C++. It explains how to use these constraints to enforce conditions within functions.",
-        "Key Words": ["Mojo", "Builtin Library", "Constrained", "Compile-Time Constraints", "Static Assert"],
-        "Index": 64,
-        "Lines": "320-321"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo format",
+        "Description": "This part focuses on the 'mojo format' command, detailing its role in formatting Mojo source files using a Mojo-specific lint tool. It discusses format options like setting max character line length and diagnostic options such as disabling non-error messages.",
+        "Key Words": ["mojo format", "Mojo source files", "lint tool", "format options", "line length", "diagnostic options"],
+        "Index": 3,
+        "Lines": "20-21"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Builtin Slice Module in Mojo Builtin Library",
-        "Description": "The 'builtin_slice' module in Mojo details the 'slice' object, used for representing slice expressions in arrays and strings. It includes methods like '__init__', '__getitem__', and comparison functions.",
-        "Key Words": ["Mojo", "Builtin Library", "Builtin Slice", "Slice Expressions", "Arrays", "Strings"],
-        "Index": 65,
-        "Lines": "325-326"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo doc",
+        "Description": "This section describes the 'mojo doc' command for compiling docstrings from a Mojo file into JSON. It provides an overview of the tool's early version, input requirements, output options, and additional compilation settings.",
+        "Key Words": ["mojo doc", "docstrings", "Mojo file", "JSON output", "compilation settings"],
+        "Index": 4,
+        "Lines": "25-26"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Builtin List Module in Mojo Builtin Library",
-        "Description": "This section describes the 'builtin_list' module, introducing the 'ListLiteral' and 'VariadicList' classes for handling list data structures in Mojo. It covers their construction, access methods, and properties.",
-        "Key Words": ["Mojo", "Builtin Library", "Builtin List", "ListLiteral", "VariadicList", "Data Structures"],
-        "Index": 66,
-        "Lines": "330-331"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo demangle",
+        "Description": "The 'mojo demangle' command is explained in this segment, focusing on its utility for demangling mangled Mojo symbol names. It details the process of providing names for demangling, either through command line input or standard input.",
+        "Key Words": ["mojo demangle", "mangled Mojo symbols", "demangling", "command line input", "standard input"],
+        "Index": 5,
+        "Lines": "30-31"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Bool Class in Mojo Builtin Library",
-        "Description": "The 'Bool' class in Mojo, representing primitive boolean values, is detailed in this section. It includes methods for initialization, conversion, and logical operations, along with special hooks for compiler usage.",
-        "Key Words": ["Mojo", "Builtin Library", "Bool Class", "Boolean", "Logical Operations", "Compiler Hooks"],
-        "Index": 67,
-        "Lines": "335-336"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo debug",
+        "Description": "This portion details the 'mojo debug' command, which launches the LLDB debugger with support for debugging Mojo programs. It emphasizes the experimental nature of this feature and outlines the common options available.",
+        "Key Words": ["mojo debug", "LLDB debugger", "debugging Mojo programs", "experimental feature"],
+        "Index": 6,
+        "Lines": "35-36"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Benchmark Module in Mojo Standard Library",
-        "Description": "This section introduces the 'benchmark' module, used for runtime benchmarking in Mojo. It explains the usage of classes like 'Batch', 'Unit', 'Report', and functions for running benchmarks and analyzing their results.",
-        "Key Words": ["Mojo", "Standard Library", "Benchmark", "Runtime Benchmarking", "Batch", "Report"],
-        "Index": 68,
-        "Lines": "340-341"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo build",
+        "Description": "Here, the 'mojo build' command is discussed, highlighting its role in building executables from Mojo files. The section covers output options, default behavior for executable saving, and various compilation options.",
+        "Key Words": ["mojo build", "building executables", "Mojo files", "output options", "compilation options"],
+        "Index": 7,
+        "Lines": "40-41"
     },
     {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Base64 Module in Mojo Standard Library",
-        "Description": "The 'base64' module in Mojo offers functions for base64 encoding strings. This section explains how to use the 'b64encode' function to perform base64 encoding on input strings.",
-        "Key Words": ["Mojo", "Standard Library", "Base64", "Encoding", "b64encode"],
-        "Index": 69,
-        "Lines": "345-346"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Autotune Module in Mojo Standard Library",
-        "Description": "This section details the 'autotune' module in Mojo, providing functionality for compile-time evaluation and optimization. It covers methods like 'autotune', 'autotune_fork', 'search', and 'cost_of' for performance tuning.",
-        "Key Words": ["Mojo", "Standard Library", "Autotune", "Compile-Time Evaluation", "Performance Tuning"],
-        "Index": 70,
-        "Lines": "350-351"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Sort Module in Mojo Algorithm Package",
-        "Description": "The 'sort' module, part of Mojo's algorithm package, implements sorting functions for various data types. This section provides insights into functions like 'partition' and 'sort' for different data structures.",
-        "Key Words": ["Mojo", "Algorithm Package", "Sort Module", "Sorting Functions", "Data Structures"],
-        "Index": 71,
-        "Lines": "355-356"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mandelbrot in Mojo with Python Plots",
-        "Description": "This section details how Mojo can be used for writing high-performance code while leveraging the Python ecosystem for tasks like GUIs. It focuses on implementing the Mandelbrot set algorithm in Mojo, demonstrating the language's ability to develop fast programs for complex applications and visualize results using Python tools.",
-        "Key Words": ["Mojo", "Python", "Mandelbrot set", "high-performance", "visualization", "Python interoperability", "vectorization", "parallelization", "benchmarking"],
-        "Index": 72,
-        "Lines": "360-361"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Defining Custom Types in Mojo with MLIR",
-        "Description": "This section introduces MLIR, an intermediate representation for compilers, and its integration with Mojo to define custom types. The example of creating a boolean type, 'OurBool', is used to illustrate Mojo's capabilities for low-level programming and how MLIR interoperability enables efficient, modular, and powerful customizations.",
-        "Key Words": ["MLIR", "Mojo", "custom types", "low-level programming", "MLIR interoperability", "OurBool type", "modularity"],
-        "Index": 73,
-        "Lines": "365-366"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Overview of Mojo Notebooks",
-        "Description": "This section provides an overview of Mojo notebooks, which are Jupyter notebooks rendered from GitHub and available in the Mojo Playground. It includes tutorials on various topics such as low-level IR, matrix multiplication, and ray tracing in Mojo.",
-        "Key Words": ["Mojo", "notebooks", "Jupyter notebooks", "GitHub", "Mojo Playground", "tutorials", "low-level IR", "matrix multiplication", "ray tracing"],
-        "Index": 74,
-        "Lines": "370-371"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo Programming Manual",
-        "Description": "This extensive guide covers the core concepts and features of the Mojo programming language, emphasizing its ease of use, performance, and Python ecosystem integration. It addresses various aspects such as using the Mojo compiler, basic systems programming extensions, and memory ownership.",
-        "Key Words": ["Mojo programming", "guide", "compiler usage", "systems programming", "Python integration", "memory ownership"],
-        "Index": 75,
-        "Lines": "375-376"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Modules and Packages in Mojo",
-        "Description": "This section explains how to organize and compile Mojo code into modules and packages, which are similar to Python. It includes instructions on creating modules, importing them, and packaging them into binary files, along with an explanation of the role of the __init__.mojo file.",
-        "Key Words": ["Mojo", "modules", "packages", "code organization", "compilation", "binary files", "__init__.mojo"],
-        "Index": 76,
-        "Lines": "380-381"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mandelbrot in Mojo with Python plots",
-        "Description": "This section provides a detailed tutorial on implementing the Mandelbrot set algorithm in Mojo and visualizing the results using Python libraries. It demonstrates Mojo's capability for high-performance coding and seamless Python interoperability, particularly for graphical user interfaces. The tutorial includes steps for setting parameters, the core Mandelbrot algorithm, and utilizing Python's matplotlib for rendering.",
-        "Key Words": ["Mandelbrot set", "Mojo programming", "Python interoperability", "matplotlib", "high-performance coding", "algorithm implementation", "graphical rendering"],
-        "Index": 77,
-        "Lines": "390-391"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "BoolMLIR in Mojo",
-        "Description": "This section explores the integration of MLIR (Multi-Level Intermediate Representation) in Mojo, particularly in defining custom types like 'OurBool'. It discusses how MLIR's modularity and extensibility enhance Mojo's capabilities, allowing for the optimization of high-level types for various processors and architectures. The section also delves into implementing boolean operations and other functionalities using MLIR.",
-        "Key Words": ["MLIR", "Mojo", "OurBool type", "boolean operations", "custom types", "intermediate representation", "modularity", "extensibility", "processor optimization"],
-        "Index": 78,
-        "Lines": "395-396"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo Notebooks Overview",
-        "Description": "This section provides an overview of Mojo notebooks, which are Jupyter notebooks available on GitHub and in the Mojo Playground. It highlights tutorials on various topics such as low-level IR in Mojo, high-performance code writing, matrix multiplication, fast memset functions, and ray tracing, showcasing Mojo's diverse applications.",
-        "Key Words": ["Mojo notebooks", "Jupyter notebooks", "GitHub", "Mojo Playground", "tutorials", "low-level IR", "high-performance code", "matrix multiplication", "memset functions", "ray tracing"],
-        "Index": 79,
-        "Lines": "400-401"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Programming Manual - AI Engine",
-        "Description": "This section introduces the AI Engine in Mojo, outlining the basics of using the Mojo compiler, including systems programming extensions, Python integration, and features like 'let' and 'var' declarations. It also covers advanced Mojo features such as struct types, strong type checking, function overloading, and detailed explanations of 'fn' definitions, along with special methods like '__copyinit__', '__moveinit__', and '__takeinit'.",
-        "Key Words": ["AI Engine", "Mojo compiler", "systems programming", "Python integration", "let and var declarations", "struct types", "type checking", "function overloading", "__copyinit__", "__moveinit__", "__takeinit__", "fn definitions"],
-        "Index": 80,
-        "Lines": "405-406"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo Modules and Packages",
-        "Description": "This section details the structuring of code into modules and packages in Mojo, similar to Python. It explains the creation of Mojo modules, the use of __init__.mojo files for packages, and how to import and use these modules and packages in different scenarios.",
-        "Key Words": ["Mojo modules", "Mojo packages", "__init__.mojo", "code structure", "importing modules", "module creation", "package compilation", "Python similarities"],
-        "Index": 81,
-        "Lines": "410-411"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Mojo Language Basics",
-        "Description": "This section provides an introduction to Mojo's language basics, highlighting its high-performance systems programming features and Python-like syntax. It includes explanations of Mojo's compiled nature, syntax and semantics, variable declarations, function arguments, and structures. Additionally, it touches on Python integration within Mojo.",
-        "Key Words": ["Mojo language basics", "systems programming", "Python syntax", "compiled language", "variable declarations", "function arguments", "structures", "Python integration"],
-        "Index": 82,
-        "Lines": "415-416"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Hello, World! in Mojo",
-        "Description": "This section guides through creating and running a 'Hello, World!' program in Mojo. It covers setting up the environment, using the Mojo CLI, and provides steps for both running and building Mojo source files. The section is a practical introduction to starting with Mojo programming.",
-        "Key Words": ["Hello, World!", "Mojo programming", "Mojo CLI", "environment setup", "source files", "building executable", "running Mojo code"],
-        "Index": 83,
-        "Lines": "420-421"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Getting Started with Mojo",
-        "Description": "This section covers the initial steps to get started with Mojo, including system requirements, installing the Mojo SDK, and using the Mojo Playground. It provides essential information for developers beginning their journey with Mojo programming.",
-        "Key Words": ["Getting started", "Mojo SDK", "system requirements", "installation guide", "Mojo Playground", "local development", "programming environment"],
-        "Index": 84,
-        "Lines": "425-426"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Overview of Mojo Programming Language",
-        "Description": "This overview section introduces Mojo, a programming language that combines Python syntax with systems programming and metaprogramming capabilities. The section highlights Mojo's features and its suitability for writing portable code that works seamlessly with the Python ecosystem.",
-        "Key Words": ["Mojo overview", "programming language", "Python syntax", "systems programming", "metaprogramming", "portable code", "Python ecosystem"],
-        "Index": 85,
-        "Lines": "430-431"
-    },
-    {
-        "Knowledge Filename": "mojodocs.json",
-        "Title": "Why Mojo: Rationale and Goals",
-        "Description": "This section explains the rationale behind creating Mojo, focusing on its role in unifying AI/ML infrastructure. It discusses the language's goals, including compatibility with Python, support for accelerator systems, and its foundation in next-generation compiler technology like MLIR.",
-        "Key Words": ["Why Mojo", "AI/ML infrastructure", "Python compatibility", "accelerator systems", "compiler technology", "MLIR", "programming model"],
-        "Index": 86,
-        "Lines": "435-436"
+        "Knowledge Filename": "mojocli.json",
+        "Title": "Modular Docs - mojo",
+        "Description": "This final section provides an overview of the Mojo command line interface, explaining general usage, commands, and options. It details the functionality of running and compiling Mojo code, and includes information on updating Mojo and checking the version.",
+        "Key Words": ["Mojo CLI", "running Mojo code", "compiling", "updating Mojo", "version checking"],
+        "Index": 8,
+        "Lines": "45-46"
     }
 ]
